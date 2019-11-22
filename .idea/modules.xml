@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/Ch1_ExecutorChainPattern.iml" filepath="$PROJECT_DIR$/Ch1_ExecutorChainPattern/Ch1_ExecutorChainPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" filepath="$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/inspire-demo.iml" filepath="$PROJECT_DIR$/.idea/inspire-demo.iml" />
     </modules>
   </component>
