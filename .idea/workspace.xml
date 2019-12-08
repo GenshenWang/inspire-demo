@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/request/ApiRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/ApiAuthencator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/AuthToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/CredentialStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultApiAuthencatorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultCredentialStorageImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/InvokerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/util/MD5Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inspire-demo.iws" />
@@ -235,6 +223,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="733" />
@@ -1088,16 +1077,24 @@
       <workItem from="1574559807399" duration="1708000" />
       <workItem from="1575557825677" duration="3875000" />
       <workItem from="1575609950864" duration="5000" />
-      <workItem from="1575634700037" duration="18366000" />
+      <workItem from="1575634700037" duration="18649000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
+      <created>1575818069042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575818069042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35623000" />
+    <option name="totallyTimeSpent" value="35906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="733" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="1280" height="733" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1111,7 +1108,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51170045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51170045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1178,6 +1175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <MESSAGE value="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
