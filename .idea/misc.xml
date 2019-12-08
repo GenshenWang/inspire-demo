@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/pom.xml" />
         <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/pom.xml" />
+        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/pom.xml" />
       </list>
     </option>
   </component>
