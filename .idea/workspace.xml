@@ -210,7 +210,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
+    <option name="x" value="29" />
     <option name="y" value="23" />
     <option name="width" value="1022" />
     <option name="height" value="733" />
@@ -1061,7 +1061,7 @@
       <workItem from="1575557825677" duration="3875000" />
       <workItem from="1575609950864" duration="5000" />
       <workItem from="1575634700037" duration="19502000" />
-      <workItem from="1575977291412" duration="5512000" />
+      <workItem from="1575977291412" duration="5561000" />
     </task>
     <task id="LOCAL-00001" summary="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
       <created>1575818069042</created>
@@ -1091,14 +1091,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575818725088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="docs(README.md): 修改README.md文档,增加每个章节的说明&#10;&#10;">
+      <created>1575983523153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575983523153</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42271000" />
+    <option name="totallyTimeSpent" value="42320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="23" width="1022" height="733" extended-state="0" />
+    <frame x="29" y="23" width="1022" height="733" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
