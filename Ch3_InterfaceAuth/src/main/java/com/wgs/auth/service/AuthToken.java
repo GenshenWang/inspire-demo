@@ -1,5 +1,7 @@
 package com.wgs.auth.service;
 
+import com.wgs.auth.constant.AuthConstants;
+import com.wgs.auth.request.ApiRequest;
 import com.wgs.auth.util.MD5Util;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -16,9 +18,9 @@ import java.util.Map;
 public class AuthToken {
 
     /**
-     * 时间窗口, 2h
+     * 时间窗口为10min, 单位毫秒
      */
-    private static final long TIME_WINDOW = 2 * 60  * 1000;
+    private static final long TIME_WINDOW_MS = 10 * 60  * 1000;
 
     /**
      * token
@@ -33,7 +35,7 @@ public class AuthToken {
     /**
      * token过期时间
      */
-    private long expiredTimeWindow = TIME_WINDOW;
+    private long expiredTimeWindow = TIME_WINDOW_MS;
 
 
     public AuthToken(String token, long createTime) {
@@ -47,17 +49,18 @@ public class AuthToken {
         this.expiredTimeWindow = expiredTimeWindow;
     }
 
-    public static AuthToken generateToken(String originalUrl, String password, String appKey, String token, long timeStamp) {
+    public static AuthToken generateToken(String originalUrl, String password, String appKey, long timeStamp) {
 
         // 使用map存储, 加密的时候可以不区分参数顺序
         Map<String, String> paramsMap = new HashMap<>(8);
-        paramsMap.put("originUrl", originalUrl);
-        paramsMap.put("appKey", appKey);
-        paramsMap.put("timeStamp", String.valueOf(timeStamp));
-        paramsMap.put("password", password);
+        paramsMap.put(AuthConstants.ORIGIN_URL, originalUrl);
+        paramsMap.put(AuthConstants.APP_KEY, appKey);
+        paramsMap.put(AuthConstants.TIME_STAMP, String.valueOf(timeStamp));
+        paramsMap.put(AuthConstants.PASS_WORD, password);
+        ApiRequest apiRequest = ApiRequest.buildApiRequest(paramsMap);
 
         try {
-            String serverToken = MD5Util.encrypt(paramsMap.toString());
+            String serverToken = MD5Util.encrypt(apiRequest.toString());
             return new AuthToken(serverToken, timeStamp);
         } catch (Exception e) {
             log.error("encrypt exception : " + e.toString());
@@ -72,17 +75,16 @@ public class AuthToken {
     /**
      * 判断token是否过期
      *
-     * @param timeStamp 调用方调用接口时的时间戳
      * @return
      */
-    public boolean isExpired(long timeStamp) {
+    public boolean isExpired() {
 
         long currentTime = System.currentTimeMillis();
         // 超过窗口时间, 则视为过期
-        if (currentTime - timeStamp > TIME_WINDOW) {
-            return false;
+        if ((currentTime - this.createTime) > expiredTimeWindow) {
+            return true;
         }
-        return true;
+        return false;
     }
 
     /**

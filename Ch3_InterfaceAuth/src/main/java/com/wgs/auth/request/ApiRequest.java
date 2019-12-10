@@ -1,8 +1,7 @@
 package com.wgs.auth.request;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import com.wgs.auth.constant.AuthConstants;
+import lombok.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +14,8 @@ import java.util.Map;
  *
  */
 @Getter
-@AllArgsConstructor
+@ToString
+@EqualsAndHashCode
 @NoArgsConstructor
 public class ApiRequest {
 
@@ -40,6 +40,13 @@ public class ApiRequest {
     private long timeStamp;
 
 
+    public ApiRequest(String originalUrl, String token, String appKey, long timeStamp) {
+        this.originalUrl = originalUrl;
+        this.token = token;
+        this.appKey = appKey;
+        this.timeStamp = timeStamp;
+    }
+
     /**
      * 解析客户端传过来的带有token信息的url中的参数
      *
@@ -54,9 +61,9 @@ public class ApiRequest {
         String appKey = "";
         long timeStamp = 0;
         if (paramsMap != null && paramsMap.size() > 0) {
-            token = paramsMap.get("token");
-            appKey = paramsMap.get("appKey");
-            timeStamp = Long.parseLong(paramsMap.get("timeStamp"));
+            token = paramsMap.get(AuthConstants.TOKEN);
+            appKey = paramsMap.get(AuthConstants.APP_KEY);
+            timeStamp = Long.parseLong(paramsMap.get(AuthConstants.TIME_STAMP));
         }
         ApiRequest apiRequest = new ApiRequest(originalUrl, token, appKey, timeStamp);
         return apiRequest;
@@ -67,8 +74,8 @@ public class ApiRequest {
         StringBuilder sb = new StringBuilder(originalUrl).append("?");
         for (Map.Entry<String, String> entry : paramsMap.entrySet()){
             String key = entry.getKey();
-            if (!"token".equals(key) && !"appKey".equals(key)
-                    && !"timeStamp".equals(key) && !"password".equals(key)) {
+            if (!AuthConstants.TOKEN.equals(key) && !AuthConstants.APP_KEY.equals(key)
+                    && !AuthConstants.TIME_STAMP.equals(key) && !AuthConstants.PASS_WORD.equals(key)) {
                 sb.append(key).append("=").append(entry.getValue());
             }
         }
@@ -129,5 +136,18 @@ public class ApiRequest {
     }
 
 
+    public static ApiRequest buildApiRequest(Map<String, String> paramsMap) {
+        if (paramsMap == null || paramsMap.size() < 1) {
+            return null;
+        }
+        String originalUrl = paramsMap.containsKey(AuthConstants.ORIGIN_URL) ? paramsMap.get(AuthConstants.ORIGIN_URL) : null;
+        String token = paramsMap.containsKey(AuthConstants.TOKEN) ? paramsMap.get(AuthConstants.TOKEN) : null;
+        String appKey = paramsMap.containsKey(AuthConstants.APP_KEY) ? paramsMap.get(AuthConstants.APP_KEY) : null;
+        long timeStamp = paramsMap.containsKey(AuthConstants.TIME_STAMP) ? Long.parseLong(paramsMap.get(AuthConstants.TIME_STAMP)) : null;
+
+        return new ApiRequest(originalUrl, token, appKey, timeStamp);
+
+
+    }
 
 }

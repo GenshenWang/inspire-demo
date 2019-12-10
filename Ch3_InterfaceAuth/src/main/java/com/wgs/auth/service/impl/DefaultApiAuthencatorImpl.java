@@ -36,13 +36,13 @@ public class DefaultApiAuthencatorImpl implements ApiAuthencator {
         String originalUrl = apiRequest.getOriginalUrl();
 
         AuthToken clientAuthToken = new AuthToken(token, timeStamp);
-        if (clientAuthToken.isExpired(timeStamp)) {
+        if (clientAuthToken.isExpired()) {
             log.warn("Client[{}] token is expired", appKey);
             throw new RuntimeException("Client token is expired.");
         }
 
         String serverPassword = credentialStorage.getPasswordByAppkey(appKey);
-        AuthToken serverAuthToken = AuthToken.generateToken(originalUrl, serverPassword, appKey, token, timeStamp);
+        AuthToken serverAuthToken = AuthToken.generateToken(originalUrl, serverPassword, appKey, timeStamp);
         if (serverAuthToken == null || !serverAuthToken.isMatched(clientAuthToken)) {
             throw new RuntimeException("Token verification failed.");
         }
