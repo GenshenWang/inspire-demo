@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserDeleteService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ApplicationMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigServiceV1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/KafkaConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/MysqlConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/RedisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ScheduledUpdater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/SimpleHttpServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/ConfigSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/NacosConfigSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ApplicationMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigViewer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/KafkaConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/MysqlConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/RedisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ScheduledUpdater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/SimpleHttpServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/ConfigSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/NacosConfigSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/AlertRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/ApiAlert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/Notification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/NotificationEmergencyLevelEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/AlertRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiAlert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiStatInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/Notification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiAlertInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiErrorAlertInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiInterceptorChainClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiTpsAlertInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/annotation/InterceptorOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/constant/AlertConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/test/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inspire-demo.iws" />
@@ -945,7 +900,7 @@
       <workItem from="1575609950864" duration="5000" />
       <workItem from="1575634700037" duration="19502000" />
       <workItem from="1575977291412" duration="24975000" />
-      <workItem from="1576601134268" duration="9951000" />
+      <workItem from="1576601134268" duration="10667000" />
     </task>
     <task id="LOCAL-00001" summary="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
       <created>1575818069042</created>
@@ -982,15 +937,22 @@
       <option name="project" value="LOCAL" />
       <updated>1575983523153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例">
+      <created>1576654412044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576654412044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71685000" />
+    <option name="totallyTimeSpent" value="72401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="23" width="1161" height="720" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1012,7 +974,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3073323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23088923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22929937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21179625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1035,8 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;" />
     <MESSAGE value="docs(README.md): 修改README.md文档,增加每个章节的说明&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(README.md): 修改README.md文档,增加每个章节的说明&#10;&#10;" />
+    <MESSAGE value="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
