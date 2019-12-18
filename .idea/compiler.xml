@@ -25,12 +25,14 @@
         <module name="Ch1_ExecutorChainPattern" />
         <module name="Ch2_SmartApplicationListener" />
         <module name="Ch3_InterfaceAuth" />
+        <module name="Ch4_CodeDesignStyle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="Ch1_ExecutorChainPattern" target="1.8" />
       <module name="Ch2_SmartApplicationListener" target="1.8" />
       <module name="Ch3_InterfaceAuth" target="1.8" />
+      <module name="Ch4_CodeDesignStyle" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

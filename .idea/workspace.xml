@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserDeleteService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ApplicationMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigServiceV1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/KafkaConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/MysqlConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/RedisConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ScheduledUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/SimpleHttpServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/ConfigSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/NacosConfigSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ApplicationMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigViewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/KafkaConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/MysqlConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/RedisConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ScheduledUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/SimpleHttpServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/ConfigSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/NacosConfigSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/AlertRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/ApiAlert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/Notification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/NotificationEmergencyLevelEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/AlertRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiAlert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiStatInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/Notification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiAlertInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiErrorAlertInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiInterceptorChainClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiTpsAlertInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/annotation/InterceptorOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/constant/AlertConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/test/TestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="inspire-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,6 +55,7 @@
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/Ch2_SmartApplicationListener/target/" />
     <ignored path="$PROJECT_DIR$/Ch3_InterfaceAuth/target/" />
+    <ignored path="$PROJECT_DIR$/Ch4_CodeDesignStyle/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +76,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InvokerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/InvokerController.java">
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduledUpdater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ScheduledUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +102,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/request/ApiRequest.java">
+      <file leaf-file-name="ConfigViewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="138" column="75" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="75" />
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/KafkaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleHttpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/SimpleHttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultApiAuthencatorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultApiAuthencatorImpl.java">
+      <file leaf-file-name="ApplicationMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ApplicationMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+            <state relative-caret-position="104">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,56 +150,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="ConfigService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthToken.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/AuthToken.java">
+      <file leaf-file-name="ConfigSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/ConfigSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigUpdater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/MysqlConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
-                <element signature="e#2422#2423#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiAuthencator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/ApiAuthencator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CredentialStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/CredentialStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,6 +199,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -142,57 +216,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/intercrptor/impl/LoggerInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/intercrptor/impl/MethodCountInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/annotation/InterceptorOrder.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/model/InpireRequest.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/model/InspireRequest.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/model/InspireResponse.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/model/InspireContext.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/LoggerInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/RpcResult.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/CostTimeInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/InspireInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/InterceptorChainClient.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/RefundService.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/RpcResultBuilder.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/test/RefundController.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/aop/MethodAspect.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/MethodConutInterceptor.java" />
-        <option value="$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/impl/RefundServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/Ch2SmartApplicationListenerApplication.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/pom.xml" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/model/OrderDTO.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/publish/EventPublishService.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/publish/impl/SpringEventPublishService.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/publish/impl/SpringEventPublishServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/event/OrderCreateEvent.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/event/OrderPayEvent.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/listener/OrderCreateEventListener.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/configuration/ListenerAsyncConfiguration.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/service/OrderManager.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/listener/OrderPayEventListener.java" />
-        <option value="$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/test/OrderController.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/pom.xml" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/AuthTokenService.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/encrypt/EncryptService.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/encrypt/impl/Md5EncryptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/CredentialStorage.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/ApiAuthencator.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultCredentialStorageImpl.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/util/UrlUtil.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/Main.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/Invoker.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/Ch3InterfaceAuthApplication.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/constant/AuthConstants.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/request/ApiRequest.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/AuthToken.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultApiAuthencatorImpl.java" />
-        <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/InvokerController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/Alert.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/test/TestController.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiTpsAlertInterceptor.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiErrorAlertInterceptor.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/test/TestController.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiInterceptorChainClient.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/AlertRule.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/AlertRule.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/Notification.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/Notification.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/ApiAlert.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiAlert.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/App.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/Test.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/TestController.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/TestController222.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/pom.xml" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/v1/UserService.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/v1/UserDeleteService.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/v1/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics2.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/ConfigService.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/MysqlConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigService.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/NacosConfigService.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/NacosConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigSource.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/NacosConfigSource.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/ConfigSource.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigServiceV1.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/MysqlConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ScheduledUpdater.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/SimpleHttpServer.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ApplicationMain.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/A.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/NacosConfigSource.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ScheduledUpdater.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigViewer.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/MysqlConfig.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/SimpleHttpServer.java" />
+        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ApplicationMain.java" />
       </list>
     </option>
   </component>
@@ -210,10 +284,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="98" />
     <option name="y" value="23" />
-    <option name="width" value="1022" />
-    <option name="height" value="733" />
+    <option name="width" value="1161" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -240,8 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,263 +332,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspire-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ch3_InterfaceAuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,34 +352,25 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wgs.codedesign.isp.OOP接口.v1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wgs.demo.listener" />
-      <recent name="com.wgs.demo.event" />
-      <recent name="com.wgs.inspire.chain.interceptor" />
-      <recent name="com.wgs.inspire.chain.model" />
+      <recent name="com.wgs.codedesign.isp.OOP接口" />
+      <recent name="com.wgs.codedesign.isp.v1" />
+      <recent name="com.wgs.codedesign.ocp.v2.interceptor" />
+      <recent name="com.wgs.codedesign.ocp.v2" />
+      <recent name="com.wgs.codedesign.ocp.v2.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2" />
+      <recent name="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1" />
+      <recent name="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor" />
+      <recent name="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2" />
+      <recent name="$PROJECT_DIR$/Ch4_CodeDesignStyle" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Ch3InterfaceAuthApplication">
-    <configuration default="false" name="UrlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wgs.auth.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wgs.auth.util.UrlUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Ch3_InterfaceAuth" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.A">
     <configuration default="false" name="InvokerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -597,6 +408,66 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Ch3_InterfaceAuth" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ApiAlert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wgs.codedesign.ocp.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wgs.codedesign.ocp.v1.ApiAlert" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ch4_CodeDesignStyle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wgs.codedesign.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wgs.codedesign.test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ch4_CodeDesignStyle" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wgs.codedesign.isp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wgs.codedesign.isp.A" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ch4_CodeDesignStyle" />
       <envs />
       <method />
     </configuration>
@@ -1022,19 +893,31 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <configuration default="false" name="Ch4CodeDesignStyleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wgs.codedesign.Ch4CodeDesignStyleApplication" />
+      <module name="Ch4_CodeDesignStyle" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Ch1ExecutorChainPatternApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Ch2SmartApplicationListenerApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.Ch3InterfaceAuthApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UrlUtil" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.Ch4CodeDesignStyleApplication" />
       <item index="4" class="java.lang.String" itemvalue="Application.InvokerController" />
       <item index="5" class="java.lang.String" itemvalue="Application.MD5Util" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ApiAlert" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="8" class="java.lang.String" itemvalue="Application.A" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.InvokerController" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UrlUtil" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.A" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ApiAlert" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InvokerController" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MD5Util" />
       </list>
     </recent_temporary>
   </component>
@@ -1061,7 +944,8 @@
       <workItem from="1575557825677" duration="3875000" />
       <workItem from="1575609950864" duration="5000" />
       <workItem from="1575634700037" duration="19502000" />
-      <workItem from="1575977291412" duration="5561000" />
+      <workItem from="1575977291412" duration="24975000" />
+      <workItem from="1576601134268" duration="9951000" />
     </task>
     <task id="LOCAL-00001" summary="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
       <created>1575818069042</created>
@@ -1102,10 +986,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42320000" />
+    <option name="totallyTimeSpent" value="71685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1022" height="733" extended-state="6" />
+    <frame x="98" y="23" width="1161" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1004,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29617834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1128,17 +1012,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3073323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4071763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27959183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23088923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21179625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1277,8 +1161,28 @@
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiInterceptorChainClient.java</url>
+          <line>43</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiErrorAlertInterceptor.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiTpsAlertInterceptor.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1287,390 +1191,459 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/RpcResultBuilder.java">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiStatInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/RefundService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/rpc/service/impl/RefundServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/annotation/InterceptorOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/InspireInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/LoggerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/CostTimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/MethodConutInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1005#1006#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/interceptor/InterceptorChainClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/aop/MethodAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="160">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/test/RefundController.java">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiErrorAlertInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="189">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiTpsAlertInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/test/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/interceptor/ApiInterceptorChainClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/NotificationEmergencyLevelEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/ApiAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/ApiAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#503#504#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/Ch3_InterfaceAuth.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/Ch4CodeDesignStyleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/TestController222.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/2.2.2.RELEASE/spring-boot-starter-validation-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.2.2.RELEASE/spring-boot-starter-tomcat-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/test/App.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/9.0.29/tomcat-embed-el-9.0.29.jar!/javax/el/ELManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v2/AlertRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/ocp/v1/AlertRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserDeleteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/API集合/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#410#411#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#517#518#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/接口中函数/Statistics2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="180" column="30" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/NacosConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/NacosConfigSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/configsource/ConfigSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#992#993#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/MysqlConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ScheduledUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ConfigServiceV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ApplicationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/NacosConfigSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/ConfigSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/src/main/java/com/wgs/inspire/chain/ExecutorChainPatternApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE.jar!/org/springframework/core/Ordered.class">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.0.RELEASE/spring-context-5.2.0.RELEASE.jar!/org/springframework/context/event/SmartApplicationListener.class">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/service.java" />
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/model/OrderDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/publish/EventPublishService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/test.java" />
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/publish/impl/SpringEventPublishServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/event/OrderCreateEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/listener/OrderCreateEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#928#929#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/configuration/ListenerAsyncConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/KafkaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/service/OrderManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/event/OrderPayEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="187">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/listener/OrderPayEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.2.1.RELEASE/spring-boot-starter-web-2.2.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/test/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="66" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/encrypt/EncryptService.java" />
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/encrypt/impl/Md5EncryptServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/src/main/java/com/wgs/demo/Ch2SmartApplicationListenerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/util/UrlUtil.java" />
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/Ch3InterfaceAuthApplication.java">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/MysqlConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ScheduledUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultCredentialStorageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="193">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/SimpleHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/constant/AuthConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/request/ApiRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="138" column="75" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="75" />
+        <state relative-caret-position="410">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/AuthToken.java">
+    <entry file="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ApplicationMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/impl/DefaultApiAuthencatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        <state relative-caret-position="104">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/CredentialStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/service/ApiAuthencator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch3_InterfaceAuth/src/main/java/com/wgs/auth/test/InvokerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
