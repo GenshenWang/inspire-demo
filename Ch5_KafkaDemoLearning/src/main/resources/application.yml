@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: kafka-client-demo
+
+
+  kafka:
+    bootstrap-servers: 192.168.1.203:9092
+
+    #生产者的配置，大部分我们可以使用默认的，这里列出几个比较重要的属性
+    producer:
+      batch-size: 128
+      retries: 3
+      buffer-memory: 40960
+      acks: all
+      properties:
+        linger.ms: 10
+
+    #消费者的配置
+    consumer:
+      group-id: kafka-client-demo
+      enable-auto-commit: false
+      #自动提交的时间间隔
+      auto-commit-interval: 100
+      properties:
+        pollTimeout: 1500
+        concurrency: 4
+        session:
+            timeout: 10000
+        auto:
+            commit:
+                interval: 100
+            offset:
+                reset: latest
+
+
+

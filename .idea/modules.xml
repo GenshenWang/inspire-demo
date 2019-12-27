@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" filepath="$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch3_InterfaceAuth/Ch3_InterfaceAuth.iml" filepath="$PROJECT_DIR$/Ch3_InterfaceAuth/Ch3_InterfaceAuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch4_CodeDesignStyle/Ch4_CodeDesignStyle.iml" filepath="$PROJECT_DIR$/Ch4_CodeDesignStyle/Ch4_CodeDesignStyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/Ch5_KafkaDemoLearning.iml" filepath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/Ch5_KafkaDemoLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/inspire-demo.iml" filepath="$PROJECT_DIR$/.idea/inspire-demo.iml" />
     </modules>
   </component>

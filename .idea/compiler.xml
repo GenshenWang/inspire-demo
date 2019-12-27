@@ -26,6 +26,7 @@
         <module name="Ch2_SmartApplicationListener" />
         <module name="Ch3_InterfaceAuth" />
         <module name="Ch4_CodeDesignStyle" />
+        <module name="Ch5_KafkaDemoLearning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -33,6 +34,7 @@
       <module name="Ch2_SmartApplicationListener" target="1.8" />
       <module name="Ch3_InterfaceAuth" target="1.8" />
       <module name="Ch4_CodeDesignStyle" target="1.8" />
+      <module name="Ch5_KafkaDemoLearning" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
