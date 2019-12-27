@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/constant/KafkaTopicConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/processor/KafkaMsgProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/processor/KafkaMsgProcessorManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/processor/impl/OrderPayMsgProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/processor/impl/OrderRefundMsgProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v1/AbstractKafkaConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v1/OrderPayConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v1/OrderRefundConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v1/factory/MyKafkaConsumerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v2/KafkaMessageConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v2/config/KafkaConsumerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/entity/KafkaMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/producer/KafkaSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/thread/NamedThreadFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/test/java/com/wgs/kafka/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/test/java/com/wgs/kafka/producer/KafkaSenderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="d5cec3e8-6ab9-44a3-b1e2-c14ff0ad6217" name="Default" comment="feat(Ch5-Kafka消息发送与消费模型代码示例): (1)消息发送代码实现;(2)提供了消息消费两种模型的代码实现&#10;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="inspire-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="19" column="33" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -199,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v1/ApplicationMain.java" />
         <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/A.java" />
         <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/configsource/NacosConfigSource.java" />
         <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/src/main/java/com/wgs/codedesign/isp/OOP接口/v2/ConfigUpdater.java" />
@@ -250,6 +239,7 @@
         <option value="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v1/AbstractKafkaConsumer.java" />
         <option value="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v2/KafkaMessageConsumer.java" />
         <option value="$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/consumer/v2/config/KafkaConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -267,9 +257,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
+    <option name="x" value="72" />
     <option name="y" value="23" />
-    <option name="width" value="1077" />
+    <option name="width" value="1188" />
     <option name="height" value="729" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1253,7 +1243,7 @@
       <workItem from="1575977291412" duration="24975000" />
       <workItem from="1576601134268" duration="14879000" />
       <workItem from="1577071082948" duration="65188000" />
-      <workItem from="1577453112314" duration="3560000" />
+      <workItem from="1577453112314" duration="3887000" />
     </task>
     <task id="LOCAL-00001" summary="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;">
       <created>1575818069042</created>
@@ -1304,7 +1294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576654983464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(Ch5-Kafka消息发送与消费模型代码示例): (1)消息发送代码实现;(2)提供了消息消费两种模型的代码实现&#10;&#10;">
+      <created>1577456800097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577456800097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1340,7 +1337,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145361000" />
+    <option name="totallyTimeSpent" value="145688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1352,7 +1349,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="23" width="1077" height="729" extended-state="0" />
+    <frame x="72" y="23" width="1188" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1367,7 +1364,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44583988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29042387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1376,7 +1373,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47409734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40257648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22608696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22608696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1439,7 +1436,8 @@
     <MESSAGE value="feat(接口鉴权): 接口鉴权实现&#10;&#10;(1)领域建模:ApiRequest类、AuthToken类、CredentialStorage类&#10;(2)建立测试类;" />
     <MESSAGE value="docs(README.md): 修改README.md文档,增加每个章节的说明&#10;&#10;" />
     <MESSAGE value="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(设计模式之美): 新增OCP、ISP的代码示例&#10;&#10;(1)新增OCP开闭原则代码示例&#10;(2)新增ISP接口隔离原则代码示例" />
+    <MESSAGE value="feat(Ch5-Kafka消息发送与消费模型代码示例): (1)消息发送代码实现;(2)提供了消息消费两种模型的代码实现&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Ch5-Kafka消息发送与消费模型代码示例): (1)消息发送代码实现;(2)提供了消息消费两种模型的代码实现&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1593,7 +1591,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/processor/impl/OrderRefundMsgProcessor.java" />
     <entry file="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/processor/impl/OrderPayMsgProcessor.java" />
     <entry file="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/processor/KafkaMsgProcessorManager.java" />
     <entry file="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/src/main/java/com/wgs/kafka/processor/KafkaMsgProcessor.java" />
@@ -1656,6 +1653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1954,6 +1952,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="33" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
           <folding />
         </state>
       </provider>
