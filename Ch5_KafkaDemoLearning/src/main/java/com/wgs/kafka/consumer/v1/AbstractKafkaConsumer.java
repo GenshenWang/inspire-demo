@@ -1,6 +1,5 @@
 package com.wgs.kafka.consumer.v1;
 
-import com.wgs.kafka.consumer.processor.KafkaMsgProcessor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;

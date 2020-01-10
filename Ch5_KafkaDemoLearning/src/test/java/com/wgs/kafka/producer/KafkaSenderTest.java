@@ -15,16 +15,18 @@ public class KafkaSenderTest extends BaseTest {
     @Autowired
     private KafkaSender kafkaSender;
 
-    private static final String topic = "TestTtTopic003";
+    private static final String topic = "TestTopic";
 
     @Test
     public void test() {
+
+        String key = "partition0";
+        //kafkaSender.asyncSendMsg(topic, key, "testMsg");
         for (int i = 0; i < 10; i++) {
             String msg = "kafka msg from code test, current num : " + i;
-            kafkaSender.asyncSendMsg(topic, null, msg);
+            kafkaSender.asyncSendMsg(topic, key, msg);
             //kafkaSender.sendMsg(topic, null, msg);
         }
-
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
