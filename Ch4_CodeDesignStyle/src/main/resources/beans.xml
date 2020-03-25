@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="rateLimiter" class="com.wgs.codedesign.工厂模式.v3.model.RateLimiter" scope="prototype">
+        <constructor-arg ref="rateConfig" />
+    </bean>
+
+
+    <bean id="rateConfig" class="com.wgs.codedesign.工厂模式.v3.model.RateConfig" lazy-init="true" >
+        <constructor-arg type="String" value="127.0.0.1"/>
+        <constructor-arg type="int" value="1234"/>
+    </bean>
+</beans>
