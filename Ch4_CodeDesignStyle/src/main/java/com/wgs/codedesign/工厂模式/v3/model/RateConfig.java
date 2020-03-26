@@ -9,13 +9,27 @@ public class RateConfig {
     private String ip;
     private Integer port;
 
+    public MongoConfig getMongoConfig() {
+        return mongoConfig;
+    }
+
+    public void setMongoConfig(MongoConfig mongoConfig) {
+        this.mongoConfig = mongoConfig;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
+    private MongoConfig mongoConfig;
 
     public RateConfig() {
     }
 
-    public RateConfig(String ip, Integer port) {
+    public RateConfig(String ip, Integer port, MongoConfig mongoConfig) {
         this.ip = ip;
         this.port = port;
+        this.mongoConfig = mongoConfig;
     }
 
     public String getIp() {
@@ -41,23 +55,17 @@ public class RateConfig {
 
         RateConfig that = (RateConfig) o;
 
-        if (port != that.port) return false;
-        return ip != null ? ip.equals(that.ip) : that.ip == null;
+        if (!ip.equals(that.ip)) return false;
+        if (!port.equals(that.port)) return false;
+        return mongoConfig.equals(that.mongoConfig);
 
     }
 
     @Override
     public int hashCode() {
-        int result = ip != null ? ip.hashCode() : 0;
-        result = 31 * result + port;
+        int result = ip.hashCode();
+        result = 31 * result + port.hashCode();
+        result = 31 * result + mongoConfig.hashCode();
         return result;
-    }
-
-    @Override
-    public String toString() {
-        return "RateConfig{" +
-                "ip='" + ip + '\'' +
-                ", port=" + port +
-                '}';
     }
 }

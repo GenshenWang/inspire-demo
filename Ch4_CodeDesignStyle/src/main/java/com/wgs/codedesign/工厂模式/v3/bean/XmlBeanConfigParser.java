@@ -16,7 +16,24 @@ import java.util.*;
 /**
  * @author: wanggenshen
  * @date: 2020/3/24 17:48.
- * @description: XXX
+ * @description: 根据beans.xml文件的输入流转换成Bean结构
+ *
+ * 待解析beans.xml文件结构
+ * beans
+ *      |
+ *               |- id
+ *      ---bean -|- class
+ *              -|- lazy-init
+ *              -|- scope
+ *           |
+ *           |                   -|- type
+ *           ----constructor-arg -|- value
+ *                               -|- ref
+ *
+ *  首先读取beans标签, 获取beans标签下的bean标签;
+ *  再递归获取bean标签的标签元素: id、class、lazy-init、scope;
+ *    再递归获取bean标签下constructor-arg的标签元素: type、value、ref
+ *
  */
 public class XmlBeanConfigParser implements BeanConfigParser {
 
@@ -69,8 +86,10 @@ public class XmlBeanConfigParser implements BeanConfigParser {
             String attrKey = attribute.getName();
             String attrValue = attribute.getText();
 
+            String beanId = findBeanTagId(rootElement);
+            // bean 为父级元素<beans>下的一级元素
             if ("bean".equals(rootElement.getName())) {
-                BeanDefinition beanDefinition = beanDefinitionMap.get(findParentBeanId(rootElement));
+                BeanDefinition beanDefinition = beanDefinitionMap.get(beanId);
                 beanDefinition = beanDefinition == null ?  new BeanDefinition() :  beanDefinition;
 
                 if ("id".equals(attrKey)) {
@@ -85,19 +104,26 @@ public class XmlBeanConfigParser implements BeanConfigParser {
 
                 if (!beanDefinitions.contains(beanDefinition)) {
                     beanDefinitions.add(beanDefinition);
-                    beanDefinitionMap.putIfAbsent(findParentBeanId(rootElement), beanDefinition);
+                    beanDefinitionMap.putIfAbsent(beanId, beanDefinition);
 
                 }
-            } else if ("constructor-arg".equals(rootElement.getName())) {
+            }
+            // bean 为父级元素<beans>下的二级元素
+            else if ("constructor-arg".equals(rootElement.getName())) {
 
-                BeanDefinition beanDefinition = beanDefinitionMap.get(findParentBeanId(rootElement));
-                BeanDefinition.ConstructorArg constructArg = new BeanDefinition.ConstructorArg();
+                BeanDefinition beanDefinition = beanDefinitionMap.get(beanId);
+                BeanDefinition.ConstructorArg constructArg = null;
                 if ("ref".equals(attrKey)) {
-                    constructArg.setRef(true);
-                    constructArg.setValue(attrValue);
+                    constructArg = new BeanDefinition.ConstructorArg.Builder()
+                            .isRef(true)
+                            .value(attrValue)
+                            .build();
                 } else if("type".equals(attrKey)) {
-                    constructArg.setType(ClassFactory.createClass(rootElement.attribute("type").getValue()));
-                    constructArg.setValue(rootElement.attribute("value").getValue());
+                    constructArg = new BeanDefinition.ConstructorArg.Builder()
+                            .isRef(false)
+                            .type(ClassFactory.createClass(rootElement.attribute("type").getValue()))
+                            .value(rootElement.attribute("value").getValue())
+                            .build();
                 }
                 
                 if (CollectionUtils.isEmpty(beanDefinition.getConstructorArgs())) {
@@ -124,15 +150,19 @@ public class XmlBeanConfigParser implements BeanConfigParser {
     }
 
 
-    private String findParentBeanId(Element rootElement) {
+    /**
+     * 获取父元素<beans>下的<bean>标签下的 'id'属性
+     *
+     * @param rootElement
+     * @return
+     */
+    private String findBeanTagId(Element rootElement) {
         if (rootElement.isRootElement()) {
             return null;
         }
         while (!rootElement.getParent().isRootElement()) {
             rootElement = rootElement.getParent();
         }
-
-
         return rootElement.attribute("id").getValue();
 
     }

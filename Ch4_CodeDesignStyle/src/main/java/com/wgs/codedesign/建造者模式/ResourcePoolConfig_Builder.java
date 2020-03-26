@@ -44,34 +44,34 @@ public class ResourcePoolConfig_Builder {
         }
 
         public Builder name(String name) {
-            this.name = name;
             if (StringUtils.isBlank(name)) {
                 throw new IllegalArgumentException("name should not empty");
             }
+            this.name = name;
             return this;
         }
 
         public Builder maxTotal(int maxTotal) {
-            this.maxTotal = maxTotal;
             if (maxTotal <= 0) {
                 throw new IllegalArgumentException("maxTotal should positive");
             }
+            this.maxTotal = maxTotal;
             return this;
         }
 
         public Builder maxIdle(int maxIdle) {
-            this.maxIdle = maxIdle;
             if (maxIdle <= 0) {
                 throw new IllegalArgumentException("maxIdle should positive");
             }
+            this.maxIdle = maxIdle;
             return this;
         }
 
         public Builder minIdle(int minIdle) {
-            this.minIdle = minIdle;
             if (minIdle <= 0) {
                 throw new IllegalArgumentException("minIdle should positive");
             }
+            this.minIdle = minIdle;
             return this;
         }
     }

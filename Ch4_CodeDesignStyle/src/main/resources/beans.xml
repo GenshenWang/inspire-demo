@@ -9,5 +9,11 @@
     <bean id="rateConfig" class="com.wgs.codedesign.工厂模式.v3.model.RateConfig" lazy-init="true" >
         <constructor-arg type="String" value="127.0.0.1"/>
         <constructor-arg type="int" value="1234"/>
+        <constructor-arg ref="mongoConfig"/>
+    </bean>
+
+    <bean id="mongoConfig" class="com.wgs.codedesign.工厂模式.v3.model.MongoConfig" lazy-init="true" >
+        <constructor-arg type="String" value="192.19.232.12"/>
+        <constructor-arg type="int" value="243"/>
     </bean>
 </beans>

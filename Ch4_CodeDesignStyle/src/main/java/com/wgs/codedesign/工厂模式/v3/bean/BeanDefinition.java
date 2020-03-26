@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author: wanggenshen
  * @date: 2020/3/24 17:03.
- * @description:
+ * @description: Bean的结构定义
  *
  * beans.xml支持的参数有:
  * id: bean id
@@ -93,29 +93,69 @@ public class BeanDefinition {
         private Object value;
         private boolean isRef;
 
-        public Class getType() {
-            return type;
+        private ConstructorArg(Builder builder) {
+            this.type = builder.type;
+            this.value = builder.value;
+            this.isRef = builder.isRef;
         }
 
-        public void setType(Class type) {
-            this.type = type;
+        public static class Builder {
+            private Class type;
+            private Object value;
+            private boolean isRef;
+
+            public ConstructorArg build() {
+                if (value == null) {
+                    throw new IllegalArgumentException("BeanDefinition.ConstructorArg param value should not null");
+                }
+                if (!isRef) {
+                    if (type == null) {
+                        throw new IllegalArgumentException("BeanDefinition.ConstructorArg param type should not null");
+                    }
+                    if (value == null) {
+                        throw new IllegalArgumentException("BeanDefinition.ConstructorArg param value should not null");
+                    }
+                }
+
+                return new ConstructorArg(this);
+            }
+
+
+            public Builder type(Class type) {
+                if (type == null) {
+                    throw new IllegalArgumentException("BeanDefinition.ConstructorArg param type should not null");
+                }
+                this.type = type;
+                return this;
+            }
+
+            public Builder value(Object value) {
+                if (value == null) {
+                    throw new IllegalArgumentException("BeanDefinition.ConstructorArg param value should not null");
+                }
+                this.value = value;
+                return this;
+            }
+
+            public Builder isRef(boolean isRef) {
+                this.isRef = isRef;
+                return this;
+            }
+
+        }
+
+        public Class getType() {
+            return type;
         }
 
         public Object getValue() {
             return value;
         }
 
-        public void setValue(Object value) {
-            this.value = value;
-        }
-
         public boolean isRef() {
             return isRef;
         }
 
-        public void setRef(boolean ref) {
-            isRef = ref;
-        }
     }
 
 
