@@ -38,7 +38,7 @@ public class MyClassPathXmlApplicationContext implements MyApplicationContext {
             in = resourceLoader.getResource(configLocation);
 
             if (in == null) {
-                throw new RuntimeException("File config is not exits: " + configLocation);
+                throw new RuntimeException("FileNode config is not exits: " + configLocation);
             }
 
             List<BeanDefinition> beanDefinitions = beanConfigParser.parse(in);
