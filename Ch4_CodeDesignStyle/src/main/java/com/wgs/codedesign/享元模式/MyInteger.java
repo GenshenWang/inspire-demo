@@ -55,9 +55,5 @@ public class MyInteger {
         System.out.println(myInteger1 == myInteger3); // false
         System.out.println(myInteger2 == myInteger3); // false
 
-
-
-
-
     }
 }
