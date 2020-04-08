@@ -1,6 +1,7 @@
 package com.wgs.codedesign.观察者模式.v3_exe_异步阻塞.observer;
 
-import com.wgs.codedesign.观察者模式.v3_exe_异步阻塞.service.PromotionService;
+
+import com.wgs.codedesign.观察者模式.common_service.PromotionService;
 
 /**
  * @author: wanggenshen

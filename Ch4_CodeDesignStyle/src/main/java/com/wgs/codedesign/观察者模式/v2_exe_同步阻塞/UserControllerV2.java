@@ -1,9 +1,9 @@
 package com.wgs.codedesign.观察者模式.v2_exe_同步阻塞;
 
+import com.wgs.codedesign.观察者模式.common_service.UserService;
 import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.NotifyObserver;
 import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.ObserverManager;
 import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.UserCouponObserver;
-import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.service.UserService;
 
 /**
  * @author: wanggenshen

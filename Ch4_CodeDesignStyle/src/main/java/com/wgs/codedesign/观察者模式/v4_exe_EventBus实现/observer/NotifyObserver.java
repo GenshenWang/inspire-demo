@@ -1,6 +1,6 @@
-package com.wgs.codedesign.观察者模式.v3_exe_异步阻塞.observer;
+package com.wgs.codedesign.观察者模式.v4_exe_EventBus实现.observer;
 
-
+import com.google.common.eventbus.Subscribe;
 import com.wgs.codedesign.观察者模式.common_service.NotifyService;
 
 /**
@@ -8,7 +8,7 @@ import com.wgs.codedesign.观察者模式.common_service.NotifyService;
  * @date: 2020/4/7 13:27.
  * @description: XXX
  */
-public class NotifyObserver implements UserRegisterObserver {
+public class NotifyObserver {
     private NotifyService notifyService;
 
     public NotifyObserver() {
@@ -16,8 +16,8 @@ public class NotifyObserver implements UserRegisterObserver {
     }
 
 
-    @Override
-    public void handleRegisterEvent(long userId) {
+    @Subscribe
+    public void registerNotify(Long userId) {
         notifyService.notify(userId);
     }
 }
