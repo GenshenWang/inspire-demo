@@ -24,9 +24,9 @@ public class UserControllerV4 {
 
     public UserControllerV4() {
         // 同步阻塞实现方式
-        this.eventBus = new EventBus();
+        // this.eventBus = new EventBus();
         // 异步阻塞实现方式
-        // this.eventBus = new AsyncEventBus(Executors.newFixedThreadPool(20));
+        this.eventBus = new AsyncEventBus(Executors.newFixedThreadPool(20));
         this.userService  = new UserService();
     }
 

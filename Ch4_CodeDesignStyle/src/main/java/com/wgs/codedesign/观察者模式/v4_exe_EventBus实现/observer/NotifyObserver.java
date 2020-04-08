@@ -18,6 +18,11 @@ public class NotifyObserver {
 
     @Subscribe
     public void registerNotify(Long userId) {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         notifyService.notify(userId);
     }
 }
