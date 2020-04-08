@@ -1,4 +1,4 @@
-package com.wgs.codedesign.观察者模式.v2_exe_login.service;
+package com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.service;
 
 /**
  * @author: wanggenshen

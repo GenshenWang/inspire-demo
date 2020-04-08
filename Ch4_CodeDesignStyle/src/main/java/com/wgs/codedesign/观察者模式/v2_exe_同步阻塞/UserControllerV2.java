@@ -1,14 +1,14 @@
-package com.wgs.codedesign.观察者模式.v2_exe_login;
+package com.wgs.codedesign.观察者模式.v2_exe_同步阻塞;
 
-import com.wgs.codedesign.观察者模式.v2_exe_login.observer.NotifyObserver;
-import com.wgs.codedesign.观察者模式.v2_exe_login.observer.ObserverManager;
-import com.wgs.codedesign.观察者模式.v2_exe_login.observer.UserCouponObserver;
-import com.wgs.codedesign.观察者模式.v2_exe_login.service.UserService;
+import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.NotifyObserver;
+import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.ObserverManager;
+import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.observer.UserCouponObserver;
+import com.wgs.codedesign.观察者模式.v2_exe_同步阻塞.service.UserService;
 
 /**
  * @author: wanggenshen
  * @date: 2020/4/7 13:07.
- * @description: XXX
+ * @description: 同步阻塞的实现方式
  */
 public class UserControllerV2 {
 
