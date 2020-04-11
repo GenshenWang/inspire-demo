@@ -1,9 +1,9 @@
-package com.wgs.codedesign.观察者模式.v1_模板代码;
+package com.wgs.codedesign.观察者模式.v1_经典代码;
 
-import com.wgs.codedesign.观察者模式.v1_模板代码.observer.ConcreteObserverOne;
-import com.wgs.codedesign.观察者模式.v1_模板代码.observer.ConcreteObserverTwo;
-import com.wgs.codedesign.观察者模式.v1_模板代码.subject.ConcreteSubject;
-import com.wgs.codedesign.观察者模式.v1_模板代码.subject.Subject;
+import com.wgs.codedesign.观察者模式.v1_经典代码.observer.ConcreteObserverOne;
+import com.wgs.codedesign.观察者模式.v1_经典代码.observer.ConcreteObserverTwo;
+import com.wgs.codedesign.观察者模式.v1_经典代码.subject.ConcreteSubject;
+import com.wgs.codedesign.观察者模式.v1_经典代码.subject.Subject;
 
 /**
  * @author: wanggenshen

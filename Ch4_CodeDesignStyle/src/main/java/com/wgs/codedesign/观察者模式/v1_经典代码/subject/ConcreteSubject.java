@@ -1,8 +1,8 @@
-package com.wgs.codedesign.观察者模式.v1_模板代码.subject;
+package com.wgs.codedesign.观察者模式.v1_经典代码.subject;
 
 import com.google.common.collect.Lists;
-import com.wgs.codedesign.观察者模式.v1_模板代码.Message;
-import com.wgs.codedesign.观察者模式.v1_模板代码.observer.Observer;
+import com.wgs.codedesign.观察者模式.v1_经典代码.Message;
+import com.wgs.codedesign.观察者模式.v1_经典代码.observer.Observer;
 
 import java.util.List;
 

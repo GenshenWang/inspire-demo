@@ -1,4 +1,4 @@
-package com.wgs.codedesign.观察者模式.v1_模板代码;
+package com.wgs.codedesign.观察者模式.v1_经典代码;
 
 /**
  * @author: wanggenshen
