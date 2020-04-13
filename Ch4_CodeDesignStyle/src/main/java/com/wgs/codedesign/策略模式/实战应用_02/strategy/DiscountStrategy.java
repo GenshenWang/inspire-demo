@@ -7,6 +7,6 @@ package com.wgs.codedesign.策略模式.实战应用_02.strategy;
  */
 public interface DiscountStrategy {
 
-    double calDiscount(long orderId);
+    double calDiscount(double originMoney);
 
 }

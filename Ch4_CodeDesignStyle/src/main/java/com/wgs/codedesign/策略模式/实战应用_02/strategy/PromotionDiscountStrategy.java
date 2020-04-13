@@ -7,8 +7,8 @@ package com.wgs.codedesign.策略模式.实战应用_02.strategy;
  */
 public class PromotionDiscountStrategy implements DiscountStrategy {
     @Override
-    public double calDiscount(long orderId) {
+    public double calDiscount(double originMoney) {
         System.out.println("促销订单, 一口价5元");
-        return orderId;
+        return 5;
     }
 }
