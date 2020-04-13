@@ -14,7 +14,7 @@ public class Main2 {
         String orderType = "promotion";
         double originMoney = 100;
 
-        // 不适应策略模式
+        // 不使用策略模式
         OrderServiceV1 orderServiceV1 = new OrderServiceV1();
         orderServiceV1.discount(orderType, originMoney);
 
