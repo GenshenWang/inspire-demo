@@ -5,7 +5,7 @@ package com.wgs.codedesign.迭代器模式.迭代器模式实现_List迭代器;
  * @date: 2020/4/20 09:36.
  * @description: 数组集合实现
  */
-public class MyArrayList<E> implements MyList<E> {
+public class MyArrayList<E> extends AbstractList<E> {
 
     private Object[] elementData;
 
@@ -16,6 +16,7 @@ public class MyArrayList<E> implements MyList<E> {
 
     public MyArrayList() {
         this.elementData = new Object[10];
+        this.modCount = 0;
     }
 
     public MyArrayList(int size) {
@@ -26,6 +27,7 @@ public class MyArrayList<E> implements MyList<E> {
     public void add(E e) {
         ensureElementDataSize(size + 1);
         elementData[size++] = e;
+        modCount++;
     }
 
     private void ensureElementDataSize(int size) {
