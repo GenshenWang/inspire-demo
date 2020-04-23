@@ -28,14 +28,14 @@ public class Compressor implements Visitor{
         System.out.println("压缩TXT文件" + txtFile);
     }
 
-    /* public void compress(ExcelFile excelFile) {
+    /* public void compress(ExcelFileV3 excelFile) {
     }
 
-    public void compress(PptFile pptFile) {
+    public void compress(PptFileV3 pptFile) {
 
     }
 
-    public void compress(TxtFile txtFile) {
+    public void compress(TxtFileV3 txtFile) {
 
     }*/
 }

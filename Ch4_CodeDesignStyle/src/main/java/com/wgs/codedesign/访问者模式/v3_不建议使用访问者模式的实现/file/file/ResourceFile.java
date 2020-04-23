@@ -1,7 +1,5 @@
-package com.wgs.codedesign.访问者模式.v2_访问者模式.file;
+package com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.file;
 
-import com.wgs.codedesign.访问者模式.v2_访问者模式.plugin.Compressor;
-import com.wgs.codedesign.访问者模式.v2_访问者模式.plugin.Extractor;
 import com.wgs.codedesign.访问者模式.v2_访问者模式.plugin.Visitor;
 
 /**
@@ -20,7 +18,5 @@ public abstract class ResourceFile {
     public ResourceFile(String filePath) {
         this.filePath = filePath;
     }
-
-    public abstract void type(Visitor visitor);
 
 }

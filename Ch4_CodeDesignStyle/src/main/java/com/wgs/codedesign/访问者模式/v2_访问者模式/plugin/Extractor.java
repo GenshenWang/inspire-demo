@@ -20,13 +20,13 @@ public class Extractor implements Visitor{
 
     @Override
     public void visit(PptFile pptFile) {
-        System.out.println("解析PPT内容, PptFile=" + pptFile);
+        System.out.println("解析PPT内容, PptFileV3=" + pptFile);
 
     }
 
     @Override
     public void visit(TxtFile txtFile) {
-        System.out.println("解析TXT内容, TxtFile=" + txtFile);
+        System.out.println("解析TXT内容, TxtFileV3=" + txtFile);
 
     }
 

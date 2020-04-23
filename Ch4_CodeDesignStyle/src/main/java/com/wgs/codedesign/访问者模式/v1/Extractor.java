@@ -12,7 +12,7 @@ import com.wgs.codedesign.访问者模式.v1.file.TxtFile;
 public class Extractor {
 
     public void extract(TxtFile txtFile) {
-        System.out.println("解析TXT内容, TxtFile=" + txtFile);
+        System.out.println("解析TXT内容, TxtFileV3=" + txtFile);
 
     }
 
@@ -22,7 +22,7 @@ public class Extractor {
     }
 
     public void extract(PptFile pptFile) {
-        System.out.println("解析PPT内容, PptFile=" + pptFile);
+        System.out.println("解析PPT内容, PptFileV3=" + pptFile);
 
     }
 }
