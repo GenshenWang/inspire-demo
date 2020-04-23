@@ -22,7 +22,6 @@ public class ExcelFile extends ResourceFile {
     @Override
     public void type(Compressor compressor) {
         compressor.compress(this);
-
     }
 
 }

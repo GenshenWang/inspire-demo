@@ -1,7 +1,8 @@
 package com.wgs.codedesign.访问者模式.v1;
 
 import com.google.common.collect.Lists;
-import com.wgs.codedesign.访问者模式.v1.file.*;
+import com.wgs.codedesign.访问者模式.v1.file.ResourceFile;
+import com.wgs.codedesign.访问者模式.v1.file.ResourceFileFactory;
 
 import java.util.List;
 
