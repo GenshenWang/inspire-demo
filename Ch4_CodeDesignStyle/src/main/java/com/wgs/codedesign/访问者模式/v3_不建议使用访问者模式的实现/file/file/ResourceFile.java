@@ -1,5 +1,7 @@
 package com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.file;
 
+import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.ResourceTypeEnum;
+
 /**
  * @author: wanggenshen
  * @date: 2020/4/23 20:11.
@@ -16,5 +18,7 @@ public abstract class ResourceFile {
     public ResourceFile(String filePath) {
         this.filePath = filePath;
     }
+
+    public abstract ResourceTypeEnum resourceType();
 
 }

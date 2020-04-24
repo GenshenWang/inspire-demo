@@ -3,8 +3,10 @@ package com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的�
 import com.google.common.collect.Lists;
 import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.file.ResourceFile;
 import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.file.ResourceFileFactory;
-import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.Compressor;
-import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.CompressorContext;
+import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.compressor.Compressor;
+import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.compressor.CompressorFactory;
+import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.extractor.Extractor;
+import com.wgs.codedesign.访问者模式.v3_不建议使用访问者模式的实现.file.plugin.extractor.ExtractorFactory;
 
 import java.util.List;
 
@@ -17,12 +19,14 @@ public class Main3 {
 
     public static void main(String[] args) {
 
-        Compressor compressor = new Compressor();
-        CompressorContext compressorContext = new CompressorContext(compressor);
 
         List<ResourceFile> fileList = getAllFiles();
         for (ResourceFile file : fileList) {
-            compressorContext.doCompress(file.getFilePath());
+            Compressor compressor = CompressorFactory.getCompressor(file.resourceType());
+            compressor.compress(file);
+
+            Extractor extractor = ExtractorFactory.getExtractor(file.resourceType());
+            extractor.extract(file);
         }
     }
 
