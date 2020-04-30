@@ -1,4 +1,4 @@
-package com.wgs.codedesign.快照模式;
+package com.wgs.codedesign.快照模式.v1;
 
 /**
  * @author: wanggenshen

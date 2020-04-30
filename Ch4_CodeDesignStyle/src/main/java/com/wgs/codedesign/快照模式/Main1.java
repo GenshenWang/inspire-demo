@@ -1,5 +1,8 @@
 package com.wgs.codedesign.快照模式;
 
+import com.wgs.codedesign.快照模式.v1.InputText;
+import com.wgs.codedesign.快照模式.v1.SnapShotHolder;
+
 import java.util.Scanner;
 
 /**
