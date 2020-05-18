@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Ch3_InterfaceAuth/pom.xml" />
         <option value="$PROJECT_DIR$/Ch4_CodeDesignStyle/pom.xml" />
         <option value="$PROJECT_DIR$/Ch5_KafkaDemoLearning/pom.xml" />
+        <option value="$PROJECT_DIR$/Ch6_AlgorithmsExe/pom.xml" />
       </list>
     </option>
   </component>
@@ -24,5 +25,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

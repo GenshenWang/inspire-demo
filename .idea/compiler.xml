@@ -27,6 +27,7 @@
         <module name="Ch3_InterfaceAuth" />
         <module name="Ch4_CodeDesignStyle" />
         <module name="Ch5_KafkaDemoLearning" />
+        <module name="Ch6_AlgorithmsExe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -35,6 +36,8 @@
       <module name="Ch3_InterfaceAuth" target="1.8" />
       <module name="Ch4_CodeDesignStyle" target="1.8" />
       <module name="Ch5_KafkaDemoLearning" target="1.8" />
+      <module name="Ch6_AlgorithmsExe" target="1.8" />
+      <module name="Ch6_DataSourceAndAlgorithms" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
