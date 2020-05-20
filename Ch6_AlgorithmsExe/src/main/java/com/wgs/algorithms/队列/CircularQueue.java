@@ -3,7 +3,7 @@ package com.wgs.algorithms.队列;
 /**
  * @author: wanggenshen
  * @date: 2020/5/19 20:16.
- * @description: XXX
+ * @description: 循环队列的实现
  */
 public class CircularQueue<E> implements MyQueue<E>{
 
