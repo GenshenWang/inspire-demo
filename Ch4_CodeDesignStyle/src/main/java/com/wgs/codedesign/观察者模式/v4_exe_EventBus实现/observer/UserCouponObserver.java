@@ -19,4 +19,9 @@ public class UserCouponObserver {
     public void registerCoupon(Long userId) {
         promotionService.issueNewUserCoupon(userId);
     }
+
+    @Subscribe
+    public void test(Long userId) {
+        System.out.println("Test userId : " + userId);
+    }
 }
