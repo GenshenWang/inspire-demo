@@ -1,0 +1,15 @@
+configs:
+- appId: app1
+  limits:
+  - api: /v1/user
+    limit: 5
+    unit: 60
+  - api: /v1/order
+    limit: 4
+    unit: 60
+- appId: app2
+  limits:
+  - api: /v1/login
+    limit: 7
+    unit: 60
+
