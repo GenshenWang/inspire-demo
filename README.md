@@ -16,3 +16,9 @@
   - (2)循环队列实现
   - (3)阻塞队列实现
   - (4)《剑指offer》用两个栈实现队列
+<a href="https://github.com/GenshenWang/inspire-demo/tree/master/Ch7_SentinelExe">Ch7-单机版Http接口限流框架实现</a>
+* V1版本:
+- (1)限流规则配置: 暂时只支持Yaml配置;
+- (2)限流算法:只支持固定时间窗口算法;
+- (3)限流模式:只支持单机模式;
+- (4)接口类型:只支持Http接口;
