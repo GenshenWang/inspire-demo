@@ -2,6 +2,7 @@ package com.wgs.sentinel.v2.limiter;
 
 import com.wgs.sentinel.v2.algorithm.FixedWindowRateLimitAlg;
 import com.wgs.sentinel.v2.algorithm.RateLimitAlg;
+import com.wgs.sentinel.v2.datasource.FileRuleConfigSource;
 import com.wgs.sentinel.v2.datasource.RuleConfigSource;
 import com.wgs.sentinel.v2.rule.ApiLimit;
 import com.wgs.sentinel.v2.rule.RateLimitRule;
@@ -23,6 +24,7 @@ public class RateLimiter {
     private RuleConfigSource ruleConfigSource;
 
     public RateLimiter() {
+        ruleConfigSource = new FileRuleConfigSource();
         RuleConfig ruleConfig = ruleConfigSource.load();
         Assert.isTrue(ruleConfig != null, "Load from yaml file, RuleConfig is null");
         this.rule = new RateLimitRule(ruleConfig);
@@ -62,7 +64,7 @@ public class RateLimiter {
 
 
     public static void main(String[] args) {
-        com.wgs.sentinel.v1.RateLimiter rateLimiter = new com.wgs.sentinel.v1.RateLimiter();
+        RateLimiter rateLimiter = new RateLimiter();
         try {
             for (int i = 0; i < 10; i++) {
                 boolean b = rateLimiter.limit("app1", "/v1/user");
