@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/Ch5_KafkaDemoLearning/pom.xml" />
         <option value="$PROJECT_DIR$/Ch6_AlgorithmsExe/pom.xml" />
         <option value="$PROJECT_DIR$/Ch7_SentinelExe/pom.xml" />
+        <option value="$PROJECT_DIR$/Ch8_Idempotent/pom.xml" />
       </list>
     </option>
   </component>

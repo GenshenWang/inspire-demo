@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ch5_KafkaDemoLearning/Ch5_KafkaDemoLearning.iml" filepath="$PROJECT_DIR$/Ch5_KafkaDemoLearning/Ch5_KafkaDemoLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch6_AlgorithmsExe/Ch6_AlgorithmsExe.iml" filepath="$PROJECT_DIR$/Ch6_AlgorithmsExe/Ch6_AlgorithmsExe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch7_SentinelExe/Ch7_SentinelExe.iml" filepath="$PROJECT_DIR$/Ch7_SentinelExe/Ch7_SentinelExe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch8_Idempotent/Ch8_Idempotent.iml" filepath="$PROJECT_DIR$/Ch8_Idempotent/Ch8_Idempotent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/inspire-demo.iml" filepath="$PROJECT_DIR$/.idea/inspire-demo.iml" />
     </modules>
   </component>

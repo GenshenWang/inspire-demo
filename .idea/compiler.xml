@@ -29,6 +29,7 @@
         <module name="Ch5_KafkaDemoLearning" />
         <module name="Ch6_AlgorithmsExe" />
         <module name="Ch7_SentinelExe" />
+        <module name="Ch8_Idempotent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -41,6 +42,7 @@
       <module name="Ch6_DataSourceAndAlgorithms" target="1.5" />
       <module name="Ch7_Sentinel" target="1.7" />
       <module name="Ch7_SentinelExe" target="1.8" />
+      <module name="Ch8_Idempotent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
