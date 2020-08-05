@@ -48,22 +48,22 @@ public class TopLittleK {
     private void buildMaxHeap(int[] nums, int index, int len) {
         int left = index * 2 + 1;
         int right = left + 1;
-        int min = index;
-        if (left < len && nums[left] > nums[min]) {
-            min = left;
+        int max = index;
+        if (left < len && nums[left] > nums[max]) {
+            max = left;
         }
 
-        if (right < len && nums[right] > nums[min]) {
-            min = right;
+        if (right < len && nums[right] > nums[max]) {
+            max = right;
         }
 
-        if (index != min) {
+        if (index != max) {
             int temp = nums[index];
-            nums[index] = nums[min];
-            nums[min] = temp;
+            nums[index] = nums[max];
+            nums[max] = temp;
 
             // 遍历子节点
-            buildMaxHeap(nums, min, len);
+            buildMaxHeap(nums, max, len);
         }
     }
 
