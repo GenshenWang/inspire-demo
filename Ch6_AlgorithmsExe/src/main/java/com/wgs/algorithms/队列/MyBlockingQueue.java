@@ -29,10 +29,7 @@ public class MyBlockingQueue<E> implements MyQueue<E>{
             }
         }
         // 队列为空, 唤醒其他线程
-        if (count == 0) {
-            notifyAll();
-        }
-
+        notifyAll();
         queue[count++] = node;
     }
 
@@ -46,10 +43,8 @@ public class MyBlockingQueue<E> implements MyQueue<E>{
                 e.printStackTrace();
             }
         }
-        // 队列为空, 唤醒其他线程
-        if (count == size) {
-            notifyAll();
-        }
+        // 队列非空, 唤醒其他线程
+        notifyAll();
 
         Object obj = queue[0];
         System.arraycopy(queue, 1, queue, 0, count - 1);
