@@ -106,7 +106,10 @@ public class TimeWheel {
         }
 
         // Submit task to ExecutorPool to execute.
-        startJob();
+        if (start.compareAndSet(false, true)) {
+            startJob();
+        }
+
         return taskSize.incrementAndGet();
     }
 
@@ -166,36 +169,33 @@ public class TimeWheel {
 
 
     private void startJob() {
-        if (start.compareAndSet(false, true)) {
-            Thread thread = new Thread(() -> {
-                int index = 0;
-                while (!stop.get()) {
-                    // execute task
-                    Set<Task> tasks = remove(index);
-                    // cursor index move
-                    if (++index > bufferSize - 1) {
-                        index = 0;
-                    }
-
-
-                    if (tasks.size() > 0) {
-                        for (Task task : tasks) {
-                            executorService.submit(task);
-                        }
-                        // statistic execute tasks
-                        executedTask.incrementAndGet();
-                    }
-
-                    // job execute frequency
-                    sleep(TimeUnit.SECONDS, 1);
+        Thread thread = new Thread(() -> {
+            int index = 0;
+            while (!stop.get()) {
+                // execute task
+                Set<Task> tasks = remove(index);
+                // cursor index move
+                if (++index > bufferSize - 1) {
+                    index = 0;
                 }
 
-                logger.info("Ring-Buffer-Job-Thread is stop.");
-            });
-            thread.setName("Ring-Buffer-Job-Thread");
-            thread.start();
-        }
 
+                if (tasks.size() > 0) {
+                    for (Task task : tasks) {
+                        executorService.submit(task);
+                    }
+                    // statistic execute tasks
+                    executedTask.incrementAndGet();
+                }
+
+                // job execute frequency
+                sleep(TimeUnit.SECONDS, 1);
+            }
+
+            logger.info("Ring-Buffer-Job-Thread is stop.");
+        });
+        thread.setName("Ring-Buffer-Job-Thread");
+        thread.start();
     }
 
     private void sleep(TimeUnit seconds, int i) {
@@ -276,11 +276,11 @@ public class TimeWheel {
     public static void main(String[] args) {
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        TimeWheel timeWheel = new TimeWheel(executorService, 512);
+        TimeWheel timeWheel = new TimeWheel(executorService, 64);
 
 
         // 5s执行的任务
-        TimeWheel.Task task = new Job2(1);
+        /*TimeWheel.Task task = new Job2(1);
         task.setKey(5);
         timeWheel.addTask(task);
         System.out.println("Add Task1===" + DateTime.now());
@@ -300,10 +300,47 @@ public class TimeWheel {
         task = new Job(4);
         task.setKey(40);
         timeWheel.addTask(task);
-        System.out.println("Add Task4 time 40s===" + DateTime.now());
+        System.out.println("Add Task4 time 40s===" + DateTime.now());*/
 
+        TimeWheel.Task task = new OrderCancelJob(1000001);
+        task.setKey(30);
+        int res = timeWheel.addTask(task);
+        System.out.println("Add Order cancel Task1 time 30s===>" + DateTime.now() + ", task size = " + res);
 
-        timeWheel.stop(false);
+        task = new OrderCancelJob(1000002);
+        task.setKey(20);
+        int res2 = timeWheel.addTask(task);
+        System.out.println("Add Order cancel Task2 time 20s===>" + DateTime.now() + ", task size = " + res2);
+
+        for (int i = 0; i < 20; i++) {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        task = new OrderCancelJob(1000003);
+        task.setKey(10);
+        int res3 = timeWheel.addTask(task);
+        System.out.println("Add Order cancel Task3 time 10s===>" + DateTime.now() + ", task size = " + res3);
+
+        // timeWheel.stop(false);
+    }
+
+    static class OrderCancelJob extends TimeWheel.Task {
+        private long orderId;
+
+        public OrderCancelJob(long orderId) {
+            this.orderId = orderId;
+        }
+
+        @Override
+        public void run() {
+            System.out.println("订单id: " + orderId + " 30分钟后查询OrderMapper中的订单状态, " + DateTime.now());
+
+            System.out.println(orderId % 2 == 0 ? "订单未支付，开始取消" : "订单已支付");
+        }
     }
 
     static class Job extends TimeWheel.Task {
@@ -328,7 +365,6 @@ public class TimeWheel {
 
         @Override
         public void run() {
-            int i =  10 / 0;
             System.out.println("Execute current job2 number is : " + num + ", " + DateTime.now());
         }
     }

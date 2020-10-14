@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 
 @Configuration
-@Endpoint(id = "time-wheel-endpoint")
+@Endpoint(id = "time-wheel-end-point")
 public class TimeWheelEndpoint {
 
     @Autowired
