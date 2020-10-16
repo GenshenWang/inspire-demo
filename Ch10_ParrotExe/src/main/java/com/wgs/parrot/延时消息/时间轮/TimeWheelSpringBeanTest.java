@@ -2,72 +2,42 @@ package com.wgs.parrot.延时消息.时间轮;
 
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.PostConstruct;
-
-@Component
+@RestController
 public class TimeWheelSpringBeanTest  {
 
     @Autowired
     private TimeWheel timeWheel;
 
-    @PostConstruct
-    public void triggerTimingWheelTask() {
+    @RequestMapping("/pay")
+    public void pay(@RequestParam("userId") long userId,
+                    @RequestParam("orderId") long orderId) {
+        System.out.println("用户 " + userId + " 开始准备下单了 " + orderId);
 
+        System.out.println("用户 " + userId + " 下单成功，进入待支付状态 " + orderId + ", date= " + DateTime.now().toString());
 
-        // 5s执行的任务
-        TimeWheel.Task task = new Job2(1);
-        task.setKey(5);
-        timeWheel.addTask(task);
-        System.out.println("Add Task1===" + DateTime.now());
-
-
-        task = new Job2(2);
+        TimeWheel.Task task = new OrderCancelJob(orderId);
         task.setKey(10);
         timeWheel.addTask(task);
-        System.out.println("Add Task2===" + DateTime.now());
 
-
-        task = new TimeWheel.Job(3);
-        task.setKey(20);
-        timeWheel.addTask(task);
-        System.out.println("Add Task3===" + DateTime.now());
-
-        task = new TimeWheel.Job(4);
-        task.setKey(40);
-        timeWheel.addTask(task);
-        System.out.println("Add Task4 time 40s===" + DateTime.now());
-
-
-        timeWheel.stop(false);
     }
 
 
-    static class Job extends TimeWheel.Task {
-        private int num;
 
-        public Job(int num) {
-            this.num = num;
+    static class OrderCancelJob extends TimeWheel.Task {
+        private long orderId;
+
+        public OrderCancelJob(long orderId) {
+            this.orderId = orderId;
         }
 
         @Override
         public void run() {
-            System.out.println("Execute current job number is : " + num + ", " + DateTime.now());
-        }
-    }
-
-    static class Job2 extends TimeWheel.Task {
-        private int num;
-
-        public Job2(int num) {
-            this.num = num;
-        }
-
-        @Override
-        public void run() {
-            int i =  10 / 0;
-            System.out.println("Execute current job2 number is : " + num + ", " + DateTime.now());
+            System.out.println("订单id: " + orderId + " 支付状态" +  (orderId % 2 == 0 ? "待支付，取消" : "已支付")
+                    +  " date= " + DateTime.now().toString());
         }
     }
 }

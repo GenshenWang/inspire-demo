@@ -5,17 +5,13 @@ import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -24,7 +20,7 @@ public class TimeWheel {
 
     private static final Logger logger = LoggerFactory.getLogger(TimeWheel.class);
 
-    private static final int DEFAULT_BUFFER_SIZE = 64;
+    private static final int DEFAULT_BUFFER_SIZE = 8;
     private int bufferSize;
     private Object[] bufferData;
 
@@ -34,7 +30,11 @@ public class TimeWheel {
     private final AtomicInteger taskSize = new AtomicInteger(0);
     private final AtomicBoolean start = new AtomicBoolean(false);
     private final AtomicBoolean stop = new AtomicBoolean(false);
-    private final AtomicLong executedTask = new AtomicLong(0);
+
+    // executed count of tasks
+    private AtomicInteger tick = new AtomicInteger(0);
+    private AtomicInteger cursorIndx = new AtomicInteger(0);
+
 
     private Lock lock = new ReentrantLock();
     /**
@@ -93,16 +93,17 @@ public class TimeWheel {
         int key = task.getKey();
         // 先取模，获取在时间轮的哪一个位置
         int indexOfRingBuffer = mod(key);
+        task.setIndex(indexOfRingBuffer);
         Set<Task> tasks = (Set<Task>) bufferData[indexOfRingBuffer];
         if (tasks != null) {
             task.setCycleNo(calculateCycleNo(key));
             tasks.add(task);
         } else {
-            task.setCycleNo(calculateCycleNo(key));
-
             tasks = new HashSet<>();
+
+            task.setCycleNo(calculateCycleNo(key));
             tasks.add(task);
-            put(key, tasks);
+            put(indexOfRingBuffer, tasks);
         }
 
         // Submit task to ExecutorPool to execute.
@@ -154,38 +155,24 @@ public class TimeWheel {
 
     }
 
-
-    public Map<String, String> listTaskInfo() {
-        Map<String, String> map = new HashMap<>();
-
-        map.put("completedTasks", String.valueOf(((ThreadPoolExecutor) executorService).getCompletedTaskCount()));
-        map.put("totalTasks", String.valueOf(((ThreadPoolExecutor) executorService).getTaskCount()));
-        map.put("corePoolSize", String.valueOf(((ThreadPoolExecutor) executorService).getCorePoolSize()));
-
-        return map;
-    }
-
-
-
-
     private void startJob() {
         Thread thread = new Thread(() -> {
-            int index = 0;
+            // int index = 0;
             while (!stop.get()) {
                 // execute task
-                Set<Task> tasks = remove(index);
+                Set<Task> tasks = remove(cursorIndx.get());
                 // cursor index move
-                if (++index > bufferSize - 1) {
-                    index = 0;
+                if (cursorIndx.incrementAndGet() > bufferSize - 1) {
+                    //index = 0;
+                    cursorIndx.set(0);
                 }
-
 
                 if (tasks.size() > 0) {
                     for (Task task : tasks) {
                         executorService.submit(task);
                     }
                     // statistic execute tasks
-                    executedTask.incrementAndGet();
+                    tick.incrementAndGet();
                 }
 
                 // job execute frequency
@@ -244,8 +231,7 @@ public class TimeWheel {
 
     }
 
-    private void put(int key, Set<Task> tasks) {
-        int index = mod(key);
+    private void put(int index, Set<Task> tasks) {
         bufferData[index] = tasks;
     }
 
@@ -254,15 +240,19 @@ public class TimeWheel {
     }
 
     private int mod(int key) {
+        key += cursorIndx.get();
         return key & (bufferSize - 1);
     }
 
 
     /**
      * 添加的任务
+     * index + cycleNo 确定唯一任务
      */
     @Data
     public abstract static class Task extends Thread {
+        // 在时间轮中的位置
+        private int index;
         // 在时间轮中的圈数
         private int cycleNo;
         // 延时时间

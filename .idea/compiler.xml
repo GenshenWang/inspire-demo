@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Ch10_ParrotExe" />
         <module name="Ch1_ExecutorChainPattern" />
         <module name="Ch2_SmartApplicationListener" />
         <module name="Ch3_InterfaceAuth" />
@@ -14,9 +15,11 @@
         <module name="Ch6_AlgorithmsExe" />
         <module name="Ch7_SentinelExe" />
         <module name="Ch8_Idempotent" />
+        <module name="Ch9_CodeRefactorDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Ch10_ParrotExe" target="1.8" />
       <module name="Ch1_ExecutorChainPattern" target="1.8" />
       <module name="Ch2_SmartApplicationListener" target="1.8" />
       <module name="Ch3_InterfaceAuth" target="1.8" />
@@ -27,10 +30,12 @@
       <module name="Ch7_Sentinel" target="1.7" />
       <module name="Ch7_SentinelExe" target="1.8" />
       <module name="Ch8_Idempotent" target="1.8" />
+      <module name="Ch9_CodeRefactorDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Ch10_ParrotExe" options="-parameters" />
       <module name="Ch1_ExecutorChainPattern" options="-parameters" />
       <module name="Ch2_SmartApplicationListener" options="-parameters" />
       <module name="Ch3_InterfaceAuth" options="-parameters" />
@@ -39,6 +44,7 @@
       <module name="Ch6_AlgorithmsExe" options="-parameters" />
       <module name="Ch7_SentinelExe" options="-parameters" />
       <module name="Ch8_Idempotent" options="-parameters" />
+      <module name="Ch9_CodeRefactorDemo" options="-parameters" />
     </option>
   </component>
 </project>

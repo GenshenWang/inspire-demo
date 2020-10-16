@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ch10_ParrotExe/Ch10_ParrotExe.iml" filepath="$PROJECT_DIR$/Ch10_ParrotExe/Ch10_ParrotExe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch1_ExecutorChainPattern/Ch1_ExecutorChainPattern.iml" filepath="$PROJECT_DIR$/Ch1_ExecutorChainPattern/Ch1_ExecutorChainPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" filepath="$PROJECT_DIR$/Ch2_SmartApplicationListener/Ch2_SmartApplicationListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch3_InterfaceAuth/Ch3_InterfaceAuth.iml" filepath="$PROJECT_DIR$/Ch3_InterfaceAuth/Ch3_InterfaceAuth.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ch6_AlgorithmsExe/Ch6_AlgorithmsExe.iml" filepath="$PROJECT_DIR$/Ch6_AlgorithmsExe/Ch6_AlgorithmsExe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch7_SentinelExe/Ch7_SentinelExe.iml" filepath="$PROJECT_DIR$/Ch7_SentinelExe/Ch7_SentinelExe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ch8_Idempotent/Ch8_Idempotent.iml" filepath="$PROJECT_DIR$/Ch8_Idempotent/Ch8_Idempotent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch9_CodeRefactorDemo/Ch9_CodeRefactorDemo.iml" filepath="$PROJECT_DIR$/Ch9_CodeRefactorDemo/Ch9_CodeRefactorDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/inspire-demo.iml" filepath="$PROJECT_DIR$/.idea/inspire-demo.iml" />
     </modules>
   </component>
