@@ -11,6 +11,8 @@ public class TimeWheelSpringBeanTest  {
 
     @Autowired
     private TimeWheel timeWheel;
+    @Autowired
+    private RingTimeWheel ringTimeWheel;
 
     @RequestMapping("/pay")
     public void pay(@RequestParam("userId") long userId,
@@ -19,12 +21,31 @@ public class TimeWheelSpringBeanTest  {
 
         System.out.println("用户 " + userId + " 下单成功，进入待支付状态 " + orderId + ", date= " + DateTime.now().toString());
 
-        TimeWheel.Task task = new OrderCancelJob(orderId);
+       /* TimeWheel.Task task = new OrderCancelJob(orderId);
         task.setKey(10);
-        timeWheel.addTask(task);
+        timeWheel.addTask(task);*/
+
+
+        RingTimeWheel.Task task = new OrderCancelJob2(orderId);
+        task.setKey(10);
+        ringTimeWheel.addTask(task);
 
     }
 
+
+    static class OrderCancelJob2 extends RingTimeWheel.Task {
+        private long orderId;
+
+        public OrderCancelJob2(long orderId) {
+            this.orderId = orderId;
+        }
+
+        @Override
+        public void run() {
+            System.out.println("订单id: " + orderId + " 支付状态" +  (orderId % 2 == 0 ? "待支付，取消" : "已支付")
+                    +  " date= " + DateTime.now().toString());
+        }
+    }
 
 
     static class OrderCancelJob extends TimeWheel.Task {

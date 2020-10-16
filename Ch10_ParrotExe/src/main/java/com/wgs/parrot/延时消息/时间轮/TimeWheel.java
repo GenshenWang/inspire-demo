@@ -33,10 +33,11 @@ public class TimeWheel {
 
     // executed count of tasks
     private AtomicInteger tick = new AtomicInteger(0);
-    private AtomicInteger cursorIndx = new AtomicInteger(0);
+    private AtomicInteger cursorIndex = new AtomicInteger(0);
 
 
     private Lock lock = new ReentrantLock();
+
     /**
      * When main thread invoke stop(), it will invoke condition.await to make itself wait
      * until other threads which execute tasks all finished;
@@ -160,11 +161,11 @@ public class TimeWheel {
             // int index = 0;
             while (!stop.get()) {
                 // execute task
-                Set<Task> tasks = remove(cursorIndx.get());
+                Set<Task> tasks = remove(cursorIndex.get());
                 // cursor index move
-                if (cursorIndx.incrementAndGet() > bufferSize - 1) {
+                if (cursorIndex.incrementAndGet() > bufferSize - 1) {
                     //index = 0;
-                    cursorIndx.set(0);
+                    cursorIndex.set(0);
                 }
 
                 if (tasks.size() > 0) {
@@ -240,7 +241,7 @@ public class TimeWheel {
     }
 
     private int mod(int key) {
-        key += cursorIndx.get();
+        key += cursorIndex.get();
         return key & (bufferSize - 1);
     }
 
