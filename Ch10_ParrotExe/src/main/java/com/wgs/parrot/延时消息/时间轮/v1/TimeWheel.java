@@ -1,4 +1,4 @@
-package com.wgs.parrot.延时消息.时间轮;
+package com.wgs.parrot.延时消息.时间轮.v1;
 
 import lombok.Data;
 import org.joda.time.DateTime;
@@ -172,8 +172,6 @@ public class TimeWheel {
                     for (Task task : tasks) {
                         executorService.submit(task);
                     }
-                    // statistic execute tasks
-                    tick.incrementAndGet();
                 }
 
                 // job execute frequency
