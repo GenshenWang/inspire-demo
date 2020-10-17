@@ -126,6 +126,12 @@ public class RingTimingWheel {
         this.executorService = executorService;
     }
 
+    /**
+     * Add new task, thread safe.
+     *
+     * @param task
+     * @return
+     */
     public long addTask(Task task) {
         if (stop.get()) {
             throw new IllegalStateException("The job is stop.");
@@ -162,6 +168,13 @@ public class RingTimingWheel {
     }
 
 
+    /**
+     * Stop the job.
+     *
+     * @param force if true, will shutdown the threadPool immediately,
+     *              else false, the main thread will wait until addTasks which be executed finished.
+     *
+     */
     public void stop(boolean force) {
         if (force) {
             logger.info("Delay job is force to stop");

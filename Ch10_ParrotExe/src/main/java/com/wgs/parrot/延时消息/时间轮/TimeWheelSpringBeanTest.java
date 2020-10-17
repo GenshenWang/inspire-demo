@@ -20,6 +20,13 @@ public class TimeWheelSpringBeanTest  {
     @Autowired
     private RingTimingWheel ringTimingWheel;
 
+    /**
+     * http://localhost:8080/pay?userId=100004&orderId=12345674&time=20
+     *
+     * @param userId
+     * @param orderId
+     * @param time
+     */
     @RequestMapping("/pay")
     public void pay(@RequestParam("userId") long userId,
                     @RequestParam("orderId") long orderId,
@@ -43,6 +50,12 @@ public class TimeWheelSpringBeanTest  {
 
     }
 
+    /**
+     * http://localhost:8080/stop?force=true
+     *
+     * @param force
+     * @return
+     */
     @GetMapping("/stop")
     public String stop(@RequestParam("force") String force) {
         ringTimingWheel.stop(Boolean.parseBoolean(force));
