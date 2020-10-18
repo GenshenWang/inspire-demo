@@ -17,6 +17,11 @@ public class TcpAliveManager {
     @Autowired
     private TcpConnectUtil tcpConnectUtil;
 
+    /**
+     * http://localhost:8080/user/visit?userId=1112
+     * @param userId
+     * @return
+     */
     @GetMapping("/user/visit")
     public String visit(@RequestParam("userId") long userId) {
         System.out.println("用户" + userId + "访问系统， date=" + DateTime.now().toString());
