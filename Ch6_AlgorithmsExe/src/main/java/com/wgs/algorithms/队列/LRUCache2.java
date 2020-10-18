@@ -1,7 +1,11 @@
 package com.wgs.algorithms.队列;
 
+import com.wgs.algorithms.树.TreePrint;
+
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Stack;
 
 public class LRUCache2 {
 
@@ -44,13 +48,15 @@ public class LRUCache2 {
         return node.value;
     }
 
-    /**
-     * 时间复杂度：O(1)
-     * 空间复杂度：O(1)
-     *
-     * @param key
-     * @param value
-     */
+
+
+            /**
+             * 时间复杂度：O(1)
+             * 空间复杂度：O(1)
+             *
+             * @param key
+             * @param value
+             */
     public void put(int key, int value) {
         Node node = localCache.get(key);
         if (node == null) {

@@ -1,6 +1,5 @@
 package com.wgs.algorithms.树;
 
-import javax.swing.tree.TreeNode;
 import java.util.List;
 import java.util.Stack;
 
@@ -89,6 +88,25 @@ public class TreePrint {
       TreeNode(int x) { val = x; }
   }
 
+
+    private void inOrder55(TreeNode root, List<Integer> result) {
+        Stack<TreeNode> stack = new Stack();
+        while (!stack.isEmpty() || root != null) {
+            while (root != null || !stack.isEmpty()) {
+                // 先遍历左节点
+                while (root != null) {
+                    stack.push(root);
+                    root = root.left;
+                }
+
+                // 左节点为空之后， 就打印，再转向右节点
+                TreeNode currentNode = stack.pop();
+                result.add(currentNode.val);
+                root = currentNode.right;
+
+            }
+        }
+    }
 
     public static void main(String[] args) {
         Node root = new Node(1);
