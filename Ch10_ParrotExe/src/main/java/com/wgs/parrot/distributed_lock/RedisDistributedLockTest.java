@@ -22,6 +22,7 @@ public class RedisDistributedLockTest {
      * 使用分布式锁模拟秒杀场景
      * 当商品goodId被用户1锁定时，用户2购买就会返回失败
      *
+     * http://localhost:8080/buy?goodId=12126&userId=889906
      * @param goodId
      * @param userId
      * @return
