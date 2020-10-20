@@ -27,3 +27,15 @@
     - (1) 优化RateLimitAlg,提供抽象限流算法接口;
     - (2) 优化RateLimitRule, 提供抽象规则查找;
     - (3) 限流规则读取优化;
+    
+## <a href="https://github.com/GenshenWang/inspire-demo/tree/master/Ch10_ParrotExe/src/main/java/com/wgs/parrot">
+Ch10-项目代码实战</a>
+* 延时队列 - 时间轮实现
+    - (1)<a href="https://github.com/GenshenWang/inspire-demo/tree/master/Ch10_ParrotExe/src/main/java/com/wgs/parrot/%E5%BB%B6%E6%97%B6%E6%B6%88%E6%81%AF/%E6%97%B6%E9%97%B4%E8%BD%AE">代码链接</a>
+    - (2)支持添加任务, 支持与Spring结合, 支持实时查看任务执行情况
+    - (3)时间轮算法应用：监测多用户TCP是否在线
+*  分布式锁 - Spring Data Redis分布式锁实现
+    - (1)<a href="https://github.com/GenshenWang/inspire-demo/tree/master/Ch10_ParrotExe/src/main/java/com/wgs/parrot/distributed_lock">代码链接</a>
+    - (2)Redis分布式锁实现，本地锁 + Redis
+    - (3)测试用例模拟秒杀场景   
+
