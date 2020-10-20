@@ -1,8 +1,8 @@
 package com.wgs.parrot.distributed_lock;
 
+import java.util.concurrent.locks.Lock;
+
 public interface DistributedLock {
 
-    boolean lock(String key, String value);
-
-    boolean unlock(String key);
+    Lock obtainLock(String key);
 }
