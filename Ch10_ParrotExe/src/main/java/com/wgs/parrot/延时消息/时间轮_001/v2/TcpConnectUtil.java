@@ -1,4 +1,4 @@
-package com.wgs.parrot.延时消息.时间轮.v2;
+package com.wgs.parrot.延时消息.时间轮_001.v2;
 
 import org.joda.time.DateTime;
 import org.slf4j.Logger;
@@ -16,7 +16,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 时间轮 v2.0
+ * 时间轮_001 v2.0
  */
 public class TcpConnectUtil {
 

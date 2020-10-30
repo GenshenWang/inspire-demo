@@ -1,8 +1,8 @@
-package com.wgs.parrot.延时消息.时间轮;
+package com.wgs.parrot.延时消息.时间轮_001;
 
-import com.wgs.parrot.延时消息.时间轮.v1.RingTimeWheel;
-import com.wgs.parrot.延时消息.时间轮.v1.TimeWheel;
-import com.wgs.parrot.延时消息.时间轮.v2.RingTimingWheel;
+import com.wgs.parrot.延时消息.时间轮_001.v1.RingTimeWheel;
+import com.wgs.parrot.延时消息.时间轮_001.v1.TimeWheel;
+import com.wgs.parrot.延时消息.时间轮_001.v2.RingTimingWheel;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

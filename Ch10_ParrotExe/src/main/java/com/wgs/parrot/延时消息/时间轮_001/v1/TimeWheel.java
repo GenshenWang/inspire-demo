@@ -1,4 +1,4 @@
-package com.wgs.parrot.延时消息.时间轮.v1;
+package com.wgs.parrot.延时消息.时间轮_001.v1;
 
 import lombok.Data;
 import org.joda.time.DateTime;

@@ -1,4 +1,4 @@
-package com.wgs.parrot.distributed_lock;
+package com.wgs.parrot.distributed_lock_002_Redis实现分布式锁;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
