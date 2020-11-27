@@ -4,7 +4,10 @@ import com.wgs.seckill.domain.model.activity.id.ActivityId;
 import com.wgs.seckill.domain.model.activity.rule.ActivityAccessContext;
 import com.wgs.seckill.domain.model.activity.rule.ActivityRule;
 import com.wgs.seckill.domain.model.activity.rule.ActivityRuleCheckResult;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 
@@ -18,6 +21,9 @@ import java.util.List;
  */
 @Data
 @Slf4j
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Activity {
     private ActivityId activityId;
     private String activityName;

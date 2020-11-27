@@ -2,7 +2,10 @@ package com.wgs.seckill.domain.model.activity;
 
 import com.wgs.seckill.domain.model.activity.id.ActivityId;
 import com.wgs.seckill.domain.model.activity.id.ActivityItemId;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -13,6 +16,9 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Data
 @Slf4j
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class ActivityItem {
 
     /**
@@ -32,11 +38,11 @@ public class ActivityItem {
     /**
      * 原价
      */
-    private Long price;
+    private Double price;
     /**
      * 活动价
      */
-    private Long activityPrice;
+    private Double activityPrice;
 
     /**
      * 库存

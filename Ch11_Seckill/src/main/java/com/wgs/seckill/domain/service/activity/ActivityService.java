@@ -2,7 +2,6 @@ package com.wgs.seckill.domain.service.activity;
 
 import com.wgs.seckill.domain.model.activity.Activity;
 import com.wgs.seckill.domain.model.activity.ActivityItem;
-import com.wgs.seckill.domain.model.activity.id.ActivityId;
 
 import java.util.List;
 
@@ -25,5 +24,5 @@ public interface ActivityService {
      * @param activityId
      * @param enabled
      */
-    void enableActivity(ActivityId activityId, boolean enabled);
+    void enableActivity(Long activityId, boolean enabled);
 }

@@ -12,6 +12,7 @@ public class ActivityRuleConfigDTO implements Serializable {
 
     private static final long serialVersionUID = -8733655667012078742L;
 
+
     private String configKey;
 
     private String configValue;

@@ -20,7 +20,7 @@ public interface ActivityRule {
      *
      * @return
      */
-    ActivityRuleConfig decode();
+    ActivityRuleConfig encode();
 
     /**
      * 判断是否满足活动
