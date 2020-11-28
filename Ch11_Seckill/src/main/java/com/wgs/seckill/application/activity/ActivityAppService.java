@@ -44,11 +44,11 @@ public interface ActivityAppService {
     ActivityDetailDTO queryActivityDetail(Long activityId);
 
     /**
-     * 查看活动商品详情
+     * 查看活动具体商品详情
      *
      * @param activityId
      * @param itemId
      * @return
      */
-    List<ActivityItemDTO> queryActivityItemDetail(Long activityId, Long itemId);
+    ActivityItemDTO queryActivityItemDetail(Long activityId, Long itemId);
 }

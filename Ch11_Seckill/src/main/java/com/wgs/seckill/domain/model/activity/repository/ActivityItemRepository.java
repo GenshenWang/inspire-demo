@@ -28,5 +28,5 @@ public interface ActivityItemRepository {
      * @param activityId
      * @param activityItems
      */
-    void saveActivittItem(ActivityId activityId, List<ActivityItem> activityItems);
+    void saveActivityItem(ActivityId activityId, List<ActivityItem> activityItems);
 }

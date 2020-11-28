@@ -1,10 +1,16 @@
 package com.wgs.seckill.interfaces.activity.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class ActivityItemDTO implements Serializable {
 
     private static final long serialVersionUID = -8301772140428262709L;

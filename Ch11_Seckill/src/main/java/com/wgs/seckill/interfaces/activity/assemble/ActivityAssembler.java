@@ -10,6 +10,7 @@ import com.wgs.seckill.domain.model.activity.rule.ActivityRuleConfig;
 import com.wgs.seckill.domain.model.activity.rule.ActivityRuleRegister;
 import com.wgs.seckill.infrastructure.ActivityIdGenerator;
 import com.wgs.seckill.interfaces.activity.command.SaveActivityCommand;
+import com.wgs.seckill.interfaces.activity.dto.ActivityDTO;
 import com.wgs.seckill.interfaces.activity.dto.ActivityItemDTO;
 import com.wgs.seckill.interfaces.activity.dto.ActivityRuleConfigDTO;
 import org.springframework.stereotype.Component;
@@ -20,7 +21,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
-public class ActivityAssemble {
+public class ActivityAssembler {
     @Resource
     private ActivityIdGenerator activityIdGenerator;
 
@@ -89,5 +90,28 @@ public class ActivityAssemble {
                 .stock(activityItemDTO.getStock())
                 .build();
 
+    }
+
+    public ActivityDTO assembleActivityDTO(Activity activity) {
+        return ActivityDTO.builder()
+                .activityId(activity.getActivityId().getActivityId())
+                .activityName(activity.getActivityName())
+                .startTime(activity.getStartTime())
+                .endTime(activity.getEndTime())
+                .enabled(activity.isEnabled())
+                .build();
+    }
+
+    public ActivityItemDTO assembleActivityItemDTO(ActivityItem activityItem) {
+        return ActivityItemDTO.builder()
+                .image(activityItem.getImage())
+                .price(activityItem.getPrice())
+                .activityPrice(activityItem.getActivityPrice())
+                .itemTitle(activityItem.getTitle())
+                .itemSubTitle(activityItem.getSubTitle())
+                .quota(activityItem.getQuota())
+                .stock(activityItem.getStock())
+                .activityPrice(activityItem.getActivityPrice())
+                .build();
     }
 }
