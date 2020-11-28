@@ -1,8 +1,8 @@
-package com.wgs.seckill.infrastructure.activity;
+package com.wgs.seckill.interfaces.activity.web;
 
 import com.wgs.seckill.application.activity.ActivityAppService;
-import com.wgs.seckill.infrastructure.Response;
-import com.wgs.seckill.infrastructure.ResponseBuilder;
+import com.wgs.seckill.interfaces.activity.dto.Response;
+import com.wgs.seckill.interfaces.activity.dto.ResponseBuilder;
 import com.wgs.seckill.interfaces.activity.command.SaveActivityCommand;
 import com.wgs.seckill.interfaces.activity.command.UpdateActivityStatusCommand;
 import com.wgs.seckill.interfaces.activity.dto.ActivityDTO;
@@ -58,10 +58,10 @@ public class ActivityController {
     }
 
     @GetMapping("/item/detail")
-    public Response<List<ActivityItemDTO>> activityItemDetail(@RequestParam("activityId") Long activityId,
+    public Response<ActivityItemDTO> activityItemDetail(@RequestParam("activityId") Long activityId,
                                                         @RequestParam("activityItemId") Long activityItemId) {
-        List<ActivityItemDTO> activityItemList = activityAppService.queryActivityItemDetail(activityId, activityItemId);
-        return ResponseBuilder.ok(activityItemList);
+        ActivityItemDTO activityItemDetail = activityAppService.queryActivityItemDetail(activityId, activityItemId);
+        return ResponseBuilder.ok(activityItemDetail);
     }
 
 

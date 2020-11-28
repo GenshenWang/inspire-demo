@@ -1,4 +1,4 @@
-package com.wgs.seckill.infrastructure;
+package com.wgs.seckill.interfaces.activity.dto;
 
 public class ResponseBuilder {
     private ResponseBuilder() {

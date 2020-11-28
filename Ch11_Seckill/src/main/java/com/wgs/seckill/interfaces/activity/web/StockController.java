@@ -1,9 +1,9 @@
-package com.wgs.seckill.infrastructure.activity;
+package com.wgs.seckill.interfaces.activity.web;
 
 import com.wgs.seckill.application.activity.StockAppService;
 import com.wgs.seckill.domain.model.activity.result.StockReduceResult;
-import com.wgs.seckill.infrastructure.Response;
-import com.wgs.seckill.infrastructure.ResponseBuilder;
+import com.wgs.seckill.interfaces.activity.dto.Response;
+import com.wgs.seckill.interfaces.activity.dto.ResponseBuilder;
 import com.wgs.seckill.interfaces.activity.command.CancelReduceCommand;
 import com.wgs.seckill.interfaces.activity.command.ReduceCommand;
 import org.springframework.web.bind.annotation.PostMapping;
