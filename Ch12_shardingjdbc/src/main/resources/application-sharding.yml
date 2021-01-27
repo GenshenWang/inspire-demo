@@ -1,0 +1,66 @@
+# Druid连接池参数配置
+initialSize: 5  # 初始化大小，最小，最大
+minIdle: 5      # 最小连接池数量
+maxIdle: 100    # 最大连接池数量
+maxActive: 20   # 配置获取连接等待超时的时间
+maxWait: 60000  # 检测连接是否有效的sql
+timeBetweenEvictionRunsMillis: 60000 # 配置间隔多久才进行一次检测，关闭的空闲连接，单位是毫秒
+minEvictableIdleTimeMillis: 300000   # 连接在池中最小生存的时间，单位是毫秒
+
+# sharding-jdbc数据源分片配置
+sharding:
+  jdbc:
+    # 数据源名称，多数据源以逗号分隔
+    datasource:
+      names: order0,order1
+      # 配置数据源
+      order0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url:  jdbc:mysql://114.215.176.50:3306/order0?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
+        username: root
+        password: 920614
+        initialSize: ${initialSize}
+        minIdle: ${minIdle}
+        maxActive: ${maxActive}
+        maxWait: ${maxWait}
+        validationQuery: SELECT 1 FROM DUAL
+        timeBetweenEvictionRunsMillis: ${timeBetweenEvictionRunsMillis}
+        minEvictableIdleTimeMillis: ${minEvictableIdleTimeMillis}
+
+      order1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url:  jdbc:mysql://114.215.176.50:3306/order1?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
+        username: root
+        password: 920614
+        initialSize: ${initialSize}
+        minIdle: ${minIdle}
+        maxActive: ${maxActive}
+        maxWait: ${maxWait}
+        validationQuery: SELECT 1 FROM DUAL
+        timeBetweenEvictionRunsMillis: ${timeBetweenEvictionRunsMillis}
+        minEvictableIdleTimeMillis: ${minEvictableIdleTimeMillis}
+
+    # 默认数据源
+    config:
+      sharding:
+        default-data-source-name: order0
+        # 分库分表配置：根据user_id取模分库，根据order_id取模分表
+        ## 分库配置，按user_id取模运算，奇数在order1库，偶数在order0库
+        default-database-strategy:
+          inline:
+            sharding-column: user_id
+            algorithm-expression: order$->{user_id % 2}
+        ## 分表规则配置：按order_id取模运算，奇数在t_order_1表；偶数在t_order_0表
+        tables:
+          t_order:
+            actual-data-nodes: order$->{0..1}.t_order_$->{0..1}
+            table-strategy:
+              inline:
+                sharding-column: order_id
+                algorithm-expression: t_order_$->{order_id % 2}
+
+
+
+

@@ -4,9 +4,9 @@ import lombok.Data;
 
 @Data
 public class OrderDO {
-    private long id;
-    private long orderId;
-    private long useId;
-    private int money;
+    private Long id;
+    private Long orderId;
+    private Long userId;
+    private Integer money;
 
 }

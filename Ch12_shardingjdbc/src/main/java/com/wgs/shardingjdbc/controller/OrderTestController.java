@@ -1,6 +1,6 @@
 package com.wgs.shardingjdbc.controller;
 
-import com.alibaba.druid.support.json.JSONUtils;
+import com.alibaba.fastjson.JSON;
 import com.wgs.shardingjdbc.dao.OrderDO;
 import com.wgs.shardingjdbc.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 public class OrderTestController {
@@ -17,10 +19,11 @@ public class OrderTestController {
 
     @GetMapping("/order/query")
     @ResponseBody
-    public String queryOrders(@RequestParam("orderId") long orderId) {
+    public String queryOrders(@RequestParam("userId") long userId) {
         OrderDO param = new OrderDO();
-        param.setOrderId(orderId);
-        return JSONUtils.toJSONString(orderService.select(param).get(0));
+        param.setUserId(userId);
+        List<OrderDO> orderDOS = orderService.select(param);
+        return JSON.toJSONString(orderDOS);
     }
 
     @GetMapping("/order/create")
@@ -30,7 +33,7 @@ public class OrderTestController {
                               @RequestParam("money") int money) {
         OrderDO param = new OrderDO();
         param.setOrderId(orderId);
-        param.setUseId(userId);
+        param.setUserId(userId);
         param.setMoney(money);
 
         orderService.insert(param);

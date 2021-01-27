@@ -6,7 +6,7 @@
     <resultMap id="AllColumnMap" type="com.wgs.shardingjdbc.dao.OrderDO">
         <result column="id" property="id"/>
         <result column="order_id" property="orderId"/>
-        <result column="use_id" property="useId"/>
+        <result column="user_id" property="userId"/>
         <result column="money" property="money"/>
     </resultMap>
 
@@ -14,7 +14,7 @@
     <sql id="all_column">
         id,
         order_id,
-        use_id,
+        user_id,
         money
     </sql>
 
@@ -24,14 +24,14 @@
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="pojo.id != null"> id, </if>
             <if test="pojo.orderId != null"> order_id, </if>
-            <if test="pojo.useId != null"> use_id, </if>
+            <if test="pojo.userId != null"> user_id, </if>
             <if test="pojo.money != null"> money, </if>
         </trim>
         VALUES
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="pojo.id != null"> #{pojo.id}, </if>
             <if test="pojo.orderId != null"> #{pojo.orderId}, </if>
-            <if test="pojo.useId != null"> #{pojo.useId}, </if>
+            <if test="pojo.userId != null"> #{pojo.userId}, </if>
             <if test="pojo.money != null"> #{pojo.money}, </if>
         </trim>
     </insert>
@@ -45,7 +45,7 @@
             (
             #{pojo.id},
             #{pojo.orderId},
-            #{pojo.useId},
+            #{pojo.userId},
             #{pojo.money}
             )
         </foreach>
@@ -57,7 +57,7 @@
         <set>
             <if test="pojo.id != null"> id = #{pojo.id}, </if>
             <if test="pojo.orderId != null"> order_id = #{pojo.orderId}, </if>
-            <if test="pojo.useId != null"> use_id = #{pojo.useId}, </if>
+            <if test="pojo.userId != null"> user_id = #{pojo.userId}, </if>
             <if test="pojo.money != null"> money = #{pojo.money} </if>
         </set>
          WHERE id = #{pojo.id}
@@ -70,7 +70,7 @@
         <where>
             <if test="pojo.id != null"> AND id = #{pojo.id} </if>
             <if test="pojo.orderId != null"> AND order_id = #{pojo.orderId} </if>
-            <if test="pojo.useId != null"> AND use_id = #{pojo.useId} </if>
+            <if test="pojo.userId != null"> AND user_id = #{pojo.userId} </if>
             <if test="pojo.money != null"> AND money = #{pojo.money} </if>
         </where>
         LIMIT 1000 
